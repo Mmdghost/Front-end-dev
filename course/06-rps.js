@@ -1,0 +1,1 @@
+let rock = document.getElementsByClassName('.rock').addEvenListener(onclick = console.log('rock'));
