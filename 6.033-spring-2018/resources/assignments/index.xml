@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.033 DNS Critique Worksheet 2017</title>
+      <link>/resources/mit6_033s18_crit1worksheet-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18_crit1worksheet-1/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6.033 DNS Critique Worksheet 2017</title>
+      <link>/resources/mit6_033s18_crit1worksheet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18_crit1worksheet/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6.033S18 MapReduce Critique Worksheet 2017</title>
+      <link>/resources/mit6_033s18_crit2worksheet-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18_crit2worksheet-1/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6.033S18 Rubric for Critique 2017</title>
+      <link>/resources/mit6_033s18_crit2rubric/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18_crit2rubric/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer System Engineering, Networking Guide</title>
+      <link>/resources/mit6_033s18networking_guide/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18networking_guide/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer System Engineering, Quick Guide</title>
+      <link>/resources/guide/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/guide/data.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIT6_033S18_Crit2Worksheet.docx</title>
+      <link>/resources/mit6_033s18_crit2worksheet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_033s18_crit2worksheet/data.json</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

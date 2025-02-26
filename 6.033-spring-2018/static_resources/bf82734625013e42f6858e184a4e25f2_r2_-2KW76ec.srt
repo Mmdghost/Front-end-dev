@@ -1,0 +1,5961 @@
+1
+00:00:01,645 --> 00:00:04,000
+The following content is
+provided under a Creative
+
+2
+00:00:04,000 --> 00:00:05,540
+Commons license.
+
+3
+00:00:05,540 --> 00:00:07,840
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:07,840 --> 00:00:12,230
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:12,230 --> 00:00:14,830
+To make a donation or
+view additional materials
+
+6
+00:00:14,830 --> 00:00:18,790
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:18,790 --> 00:00:19,750
+at OCW.MIT.edu.
+
+8
+00:00:22,840 --> 00:00:25,060
+PROFESSOR: So I am
+going to start this talk
+
+9
+00:00:25,060 --> 00:00:27,340
+by explaining the title.
+
+10
+00:00:27,340 --> 00:00:29,620
+So we'll start with
+active learning.
+
+11
+00:00:29,620 --> 00:00:31,420
+What is active learning?
+
+12
+00:00:31,420 --> 00:00:34,180
+In my mind, it's this
+pretty broad term.
+
+13
+00:00:34,180 --> 00:00:37,000
+It's a form of learning that
+attempts to involve students
+
+14
+00:00:37,000 --> 00:00:39,916
+more directly in the
+learning process.
+
+15
+00:00:39,916 --> 00:00:41,290
+And there are all
+sorts of things
+
+16
+00:00:41,290 --> 00:00:43,780
+that fall under the
+umbrella of active learning.
+
+17
+00:00:43,780 --> 00:00:45,790
+So things like having
+students engage in group
+
+18
+00:00:45,790 --> 00:00:49,540
+work, in class-wide
+discussions, in debates,
+
+19
+00:00:49,540 --> 00:00:52,690
+acting out certain concepts,
+group problem solving
+
+20
+00:00:52,690 --> 00:00:54,580
+sessions, all of these things.
+
+21
+00:00:54,580 --> 00:00:56,200
+And so in all of
+those activities,
+
+22
+00:00:56,200 --> 00:00:58,180
+students are engaged.
+
+23
+00:00:58,180 --> 00:01:00,610
+They're not passively
+listening to a lecture,
+
+24
+00:01:00,610 --> 00:01:03,050
+they're actively participating.
+
+25
+00:01:03,050 --> 00:01:07,060
+And there is some evidence
+that this style of learning
+
+26
+00:01:07,060 --> 00:01:09,350
+is good for a lot of things.
+
+27
+00:01:09,350 --> 00:01:13,630
+There is evidence to support
+the effectiveness of student
+
+28
+00:01:13,630 --> 00:01:17,740
+engagement in exam
+scores, failure rates, how
+
+29
+00:01:17,740 --> 00:01:21,220
+well students remember content,
+student attitudes, study
+
+30
+00:01:21,220 --> 00:01:22,430
+habits.
+
+31
+00:01:22,430 --> 00:01:24,970
+And there's also evidence
+that active learning
+
+32
+00:01:24,970 --> 00:01:28,090
+has a disproportionate benefit
+for minorities, students
+
+33
+00:01:28,090 --> 00:01:31,330
+from disadvantaged
+backgrounds, female students,
+
+34
+00:01:31,330 --> 00:01:33,430
+and male dominated fields.
+
+35
+00:01:33,430 --> 00:01:36,970
+So there's evidence that active
+learning creates this more
+
+36
+00:01:36,970 --> 00:01:39,230
+inclusive environment.
+
+37
+00:01:39,230 --> 00:01:43,660
+So it's this wide, wide
+variety of techniques reported
+
+38
+00:01:43,660 --> 00:01:45,390
+to have a lot of benefits.
+
+39
+00:01:45,390 --> 00:01:47,230
+So that's active learning.
+
+40
+00:01:47,230 --> 00:01:49,240
+Now, what is 6.033?
+
+41
+00:01:49,240 --> 00:01:52,820
+So 6.033 is computer
+systems engineering.
+
+42
+00:01:52,820 --> 00:01:55,510
+It's a required class
+for all computer science
+
+43
+00:01:55,510 --> 00:01:59,870
+majors, which means as a
+result, at MIT it's quite large.
+
+44
+00:01:59,870 --> 00:02:02,620
+So like Dipa said, we
+have about 400 students.
+
+45
+00:02:02,620 --> 00:02:03,850
+It runs once a year.
+
+46
+00:02:03,850 --> 00:02:07,180
+So every spring we
+get 400 new students.
+
+47
+00:02:07,180 --> 00:02:09,850
+Most of them are
+juniors and seniors.
+
+48
+00:02:09,850 --> 00:02:14,050
+And in some ways, 033
+is a typical MIT class.
+
+49
+00:02:14,050 --> 00:02:15,800
+We have lectures twice a week.
+
+50
+00:02:15,800 --> 00:02:17,860
+We have recitations
+twice a week.
+
+51
+00:02:17,860 --> 00:02:23,290
+But in most other ways, 033
+is not a typical MIT class.
+
+52
+00:02:23,290 --> 00:02:25,840
+For one, it's a CIM class.
+
+53
+00:02:25,840 --> 00:02:29,470
+So it's a Communications
+Intensive in the Major class.
+
+54
+00:02:29,470 --> 00:02:31,630
+That means that most
+of our assignments
+
+55
+00:02:31,630 --> 00:02:35,110
+are based around writing
+or oral presentations.
+
+56
+00:02:35,110 --> 00:02:37,840
+It's not a class where students
+are implementing or building
+
+57
+00:02:37,840 --> 00:02:39,490
+a lot of things.
+
+58
+00:02:39,490 --> 00:02:43,000
+We focus heavily on
+reading and on writing.
+
+59
+00:02:43,000 --> 00:02:46,690
+In particular, we have
+tutorial sections each week,
+
+60
+00:02:46,690 --> 00:02:49,810
+dedicated to the
+communication material,
+
+61
+00:02:49,810 --> 00:02:53,020
+taught by dedicated
+communication staff.
+
+62
+00:02:53,020 --> 00:02:57,160
+The major assignment in
+033 is a design project.
+
+63
+00:02:57,160 --> 00:02:58,690
+It takes most of the semester.
+
+64
+00:02:58,690 --> 00:03:02,380
+The students completed in
+teams, usually teams of three.
+
+65
+00:03:02,380 --> 00:03:05,470
+And it's comprised of a
+few written assignments
+
+66
+00:03:05,470 --> 00:03:07,450
+and oral presentations.
+
+67
+00:03:07,450 --> 00:03:11,500
+One of our big focuses for that
+project is getting students
+
+68
+00:03:11,500 --> 00:03:14,770
+to recognize the trade-offs
+they need to make when they're
+
+69
+00:03:14,770 --> 00:03:17,140
+designing a system,
+and getting them
+
+70
+00:03:17,140 --> 00:03:18,730
+to defend those trade-offs.
+
+71
+00:03:18,730 --> 00:03:20,140
+So this is not
+just a class about
+
+72
+00:03:20,140 --> 00:03:23,410
+how computer systems work,
+but how we design them,
+
+73
+00:03:23,410 --> 00:03:25,930
+how we decide what
+choices to make when
+
+74
+00:03:25,930 --> 00:03:27,970
+we're building those systems.
+
+75
+00:03:27,970 --> 00:03:30,280
+So the last thing that
+makes 033 pretty unique,
+
+76
+00:03:30,280 --> 00:03:32,800
+and is what I'm largely
+going to talk about here,
+
+77
+00:03:32,800 --> 00:03:35,770
+is that our recitation
+sections are pretty intense.
+
+78
+00:03:35,770 --> 00:03:39,250
+They are taught by faculty,
+senior research staff.
+
+79
+00:03:39,250 --> 00:03:41,980
+We have about 25
+students per section.
+
+80
+00:03:41,980 --> 00:03:44,380
+So you are right to think
+that, oh, my gosh, they have
+
+81
+00:03:44,380 --> 00:03:46,720
+like 18 sections per semester.
+
+82
+00:03:46,720 --> 00:03:47,540
+We do.
+
+83
+00:03:47,540 --> 00:03:48,970
+It's a lot.
+
+84
+00:03:48,970 --> 00:03:52,690
+Each recitation focuses
+around a technical paper
+
+85
+00:03:52,690 --> 00:03:55,240
+that the students
+have read beforehand.
+
+86
+00:03:55,240 --> 00:03:57,190
+And the goal for those
+discussion sections,
+
+87
+00:03:57,190 --> 00:04:01,030
+those recitations, is for them
+to be largely discussion based.
+
+88
+00:04:01,030 --> 00:04:03,550
+And in fact, that has
+always been the goal of 033.
+
+89
+00:04:03,550 --> 00:04:08,470
+033 has been around for
+almost 50 years at this point.
+
+90
+00:04:08,470 --> 00:04:10,480
+It's been around since
+before I was born.
+
+91
+00:04:10,480 --> 00:04:13,270
+And the goal has always
+been for these recitations
+
+92
+00:04:13,270 --> 00:04:15,100
+to be discussion based.
+
+93
+00:04:15,100 --> 00:04:17,649
+During the recitations,
+we're talking about,
+
+94
+00:04:17,649 --> 00:04:20,709
+we talk about the system
+that the paper describes--
+
+95
+00:04:20,709 --> 00:04:21,920
+does it work?
+
+96
+00:04:21,920 --> 00:04:23,920
+What were the trade-offs
+that the authors made?
+
+97
+00:04:23,920 --> 00:04:25,160
+Do we like this system?
+
+98
+00:04:25,160 --> 00:04:27,900
+How would you
+design this system?
+
+99
+00:04:27,900 --> 00:04:30,840
+All right, so that is 033.
+
+100
+00:04:30,840 --> 00:04:34,800
+Now, why put active
+learning into 033?
+
+101
+00:04:34,800 --> 00:04:38,370
+And you might think that it's
+just because, well, there's
+
+102
+00:04:38,370 --> 00:04:41,910
+evidence that active
+learning can be a good idea,
+
+103
+00:04:41,910 --> 00:04:44,160
+so why not try it?
+
+104
+00:04:44,160 --> 00:04:45,250
+That's fair.
+
+105
+00:04:45,250 --> 00:04:49,260
+We were actually trying to
+solve a pretty specific problem
+
+106
+00:04:49,260 --> 00:04:50,960
+in the class though.
+
+107
+00:04:50,960 --> 00:04:54,180
+So like I said,
+ideally the recitations
+
+108
+00:04:54,180 --> 00:04:56,670
+are based heavily
+around discussion.
+
+109
+00:04:56,670 --> 00:04:59,100
+And again, that has
+always been the goal.
+
+110
+00:04:59,100 --> 00:05:02,910
+Because this is a class about
+system design, not just about
+
+111
+00:05:02,910 --> 00:05:06,460
+how these systems work,
+one way that we teach
+
+112
+00:05:06,460 --> 00:05:09,480
+that is by having the
+students analyze and critique
+
+113
+00:05:09,480 --> 00:05:11,280
+existing systems
+before they go out
+
+114
+00:05:11,280 --> 00:05:12,910
+and try to design their own.
+
+115
+00:05:12,910 --> 00:05:15,570
+And so, what are the
+goals of the designers?
+
+116
+00:05:15,570 --> 00:05:17,640
+Does the system
+meet those goals?
+
+117
+00:05:17,640 --> 00:05:19,290
+Are those goals important?
+
+118
+00:05:19,290 --> 00:05:22,119
+If you were redesigning the
+system, how would you do it?
+
+119
+00:05:22,119 --> 00:05:23,160
+What would your goals be?
+
+120
+00:05:23,160 --> 00:05:24,784
+What trade-offs would
+you have to make?
+
+121
+00:05:24,784 --> 00:05:26,130
+Things like that.
+
+122
+00:05:26,130 --> 00:05:28,350
+A large part of that
+instruction happens
+
+123
+00:05:28,350 --> 00:05:30,910
+in the recitation, where we're
+having these discussions.
+
+124
+00:05:30,910 --> 00:05:32,430
+And they go and
+apply those skills
+
+125
+00:05:32,430 --> 00:05:34,350
+to their design projects.
+
+126
+00:05:34,350 --> 00:05:38,070
+So to get that to happen, it's
+important that the students are
+
+127
+00:05:38,070 --> 00:05:40,290
+engaged in recitation,
+that they're
+
+128
+00:05:40,290 --> 00:05:42,810
+reading the paper beforehand,
+they're asking questions,
+
+129
+00:05:42,810 --> 00:05:45,018
+they're answering questions,
+they're coming prepared,
+
+130
+00:05:45,018 --> 00:05:46,082
+things like that.
+
+131
+00:05:46,082 --> 00:05:48,690
+And for a long time, that
+was not happening for us.
+
+132
+00:05:48,690 --> 00:05:51,000
+We had a lot of
+trouble with this.
+
+133
+00:05:51,000 --> 00:05:55,230
+We found that students weren't
+willing to volunteer answers.
+
+134
+00:05:55,230 --> 00:05:58,540
+When we'd ask them a question,
+nobody would raise their hand.
+
+135
+00:05:58,540 --> 00:06:00,960
+We found that some of
+them weren't even reading
+
+136
+00:06:00,960 --> 00:06:02,370
+the paper beforehand.
+
+137
+00:06:02,370 --> 00:06:05,280
+So they're just kind
+of coming in confused.
+
+138
+00:06:05,280 --> 00:06:07,410
+As a result of all of
+this, our instructors
+
+139
+00:06:07,410 --> 00:06:10,140
+would end up spending
+the first 15, 20, 25
+
+140
+00:06:10,140 --> 00:06:13,710
+minutes of the recitation
+lecturing about the paper,
+
+141
+00:06:13,710 --> 00:06:17,070
+because so many of the
+students didn't come prepared.
+
+142
+00:06:17,070 --> 00:06:19,680
+And then that just made things
+worse, as you can imagine.
+
+143
+00:06:19,680 --> 00:06:22,381
+Students know that they're
+going to come into recitation,
+
+144
+00:06:22,381 --> 00:06:23,880
+that they're going
+to get a lecture,
+
+145
+00:06:23,880 --> 00:06:26,490
+so why bother reading the paper,
+if your instructor is just
+
+146
+00:06:26,490 --> 00:06:27,615
+going to explain it to you.
+
+147
+00:06:27,615 --> 00:06:30,330
+And so it was just kind
+of making things worse.
+
+148
+00:06:30,330 --> 00:06:33,570
+We weren't getting to teach
+the material that we really
+
+149
+00:06:33,570 --> 00:06:35,700
+needed to teach, because
+we were spending time
+
+150
+00:06:35,700 --> 00:06:37,470
+rehashing these papers.
+
+151
+00:06:37,470 --> 00:06:39,350
+The students
+weren't learning how
+
+152
+00:06:39,350 --> 00:06:41,100
+to read these papers,
+how to analyze them,
+
+153
+00:06:41,100 --> 00:06:42,360
+how to critique them.
+
+154
+00:06:42,360 --> 00:06:44,590
+And honestly, it
+wasn't much fun.
+
+155
+00:06:44,590 --> 00:06:46,960
+It wasn't all that much
+fun to teach this way.
+
+156
+00:06:46,960 --> 00:06:50,820
+Occasionally, we could get a
+discussion going in a class.
+
+157
+00:06:50,820 --> 00:06:54,210
+But we would then encounter
+another problem, which
+
+158
+00:06:54,210 --> 00:06:56,480
+is pretty common, where
+we'd have a discussion,
+
+159
+00:06:56,480 --> 00:06:58,680
+but it would be dominated
+by two or three students
+
+160
+00:06:58,680 --> 00:07:01,260
+in the room, the same
+two or three students.
+
+161
+00:07:01,260 --> 00:07:03,540
+And then other students
+are tuning out,
+
+162
+00:07:03,540 --> 00:07:07,020
+or even becoming sort of
+visibly uncomfortable,
+
+163
+00:07:07,020 --> 00:07:10,960
+not wanting to
+volunteer these answers.
+
+164
+00:07:10,960 --> 00:07:12,330
+So that's where we were.
+
+165
+00:07:12,330 --> 00:07:13,350
+And we had this problem.
+
+166
+00:07:13,350 --> 00:07:17,379
+We really wanted the recitations
+to be this really fun place,
+
+167
+00:07:17,379 --> 00:07:19,170
+where the students were
+coming, and they're
+
+168
+00:07:19,170 --> 00:07:21,450
+wrestling with all
+of these new ideas
+
+169
+00:07:21,450 --> 00:07:23,340
+and proposing these new things.
+
+170
+00:07:23,340 --> 00:07:24,690
+But we didn't have that.
+
+171
+00:07:24,690 --> 00:07:27,660
+We had this place where
+students aren't coming prepared,
+
+172
+00:07:27,660 --> 00:07:30,360
+or if they're prepared, if we
+can get a discussion going,
+
+173
+00:07:30,360 --> 00:07:32,250
+it's not the kind of
+discussion we want.
+
+174
+00:07:32,250 --> 00:07:35,550
+It's sort of dominated
+by one or two people.
+
+175
+00:07:35,550 --> 00:07:38,880
+So after some
+thinking, I thought
+
+176
+00:07:38,880 --> 00:07:40,560
+active learning might
+be a good approach
+
+177
+00:07:40,560 --> 00:07:43,032
+to solve both of these problems.
+
+178
+00:07:43,032 --> 00:07:44,490
+So, as I mentioned
+earlier, there's
+
+179
+00:07:44,490 --> 00:07:45,990
+some evidence that
+active learning
+
+180
+00:07:45,990 --> 00:07:48,990
+can be good for creating
+an inclusive environment
+
+181
+00:07:48,990 --> 00:07:50,130
+in a classroom.
+
+182
+00:07:50,130 --> 00:07:52,380
+So for instance, one
+common technique,
+
+183
+00:07:52,380 --> 00:07:54,300
+which I will talk
+a bit about later,
+
+184
+00:07:54,300 --> 00:07:56,370
+is you pose a
+question to the class,
+
+185
+00:07:56,370 --> 00:07:59,060
+but put everybody
+in small groups,
+
+186
+00:07:59,060 --> 00:08:01,200
+have the students
+discuss in small groups,
+
+187
+00:08:01,200 --> 00:08:03,420
+and then kind of bring the
+classroom back together
+
+188
+00:08:03,420 --> 00:08:05,640
+for a wide discussion.
+
+189
+00:08:05,640 --> 00:08:07,200
+Students are in
+their groups, they
+
+190
+00:08:07,200 --> 00:08:10,711
+get a chance to kind of vet
+their ideas with their peers.
+
+191
+00:08:10,711 --> 00:08:12,960
+It's sort of hard if you're
+in a group of two or three
+
+192
+00:08:12,960 --> 00:08:14,090
+to not participate.
+
+193
+00:08:14,090 --> 00:08:16,354
+You sort of have
+to say something.
+
+194
+00:08:16,354 --> 00:08:18,270
+So they'll get to vet
+their ideas with people,
+
+195
+00:08:18,270 --> 00:08:19,490
+they'll get some reassurance.
+
+196
+00:08:19,490 --> 00:08:23,790
+And in theory, they are then
+more willing to bring that idea
+
+197
+00:08:23,790 --> 00:08:26,050
+back to the whole class.
+
+198
+00:08:26,050 --> 00:08:30,360
+That type of activity can also
+give you a relatively easy way
+
+199
+00:08:30,360 --> 00:08:33,480
+to make sure one person doesn't
+dominate the discussion,
+
+200
+00:08:33,480 --> 00:08:36,210
+by saying, OK, I split you
+guys up into five groups,
+
+201
+00:08:36,210 --> 00:08:39,143
+and let's hear from
+each group now.
+
+202
+00:08:39,143 --> 00:08:42,330
+Moreover, I thought if we
+did a lot of active learning,
+
+203
+00:08:42,330 --> 00:08:44,960
+it might keep the students
+engaged for longer.
+
+204
+00:08:44,960 --> 00:08:46,572
+It would help us
+avoid lecturing.
+
+205
+00:08:46,572 --> 00:08:48,030
+It would help us
+set this precedent
+
+206
+00:08:48,030 --> 00:08:50,430
+that you come to recitation
+having read the paper,
+
+207
+00:08:50,430 --> 00:08:52,415
+we're not going to
+lecture for you.
+
+208
+00:08:52,415 --> 00:08:54,040
+So that's kind of
+where we're starting.
+
+209
+00:08:54,040 --> 00:08:55,740
+That's the baseline
+for this talk.
+
+210
+00:08:55,740 --> 00:08:59,610
+Now my goal for all of you
+is that this talk is, I hope,
+
+211
+00:08:59,610 --> 00:09:01,290
+exceedingly practical.
+
+212
+00:09:01,290 --> 00:09:03,090
+I'm going to talk about
+some specific ways
+
+213
+00:09:03,090 --> 00:09:05,370
+that I trained my
+staff to do this,
+
+214
+00:09:05,370 --> 00:09:07,020
+the types of active
+learning activities
+
+215
+00:09:07,020 --> 00:09:08,850
+we do, some lessons
+we've learned,
+
+216
+00:09:08,850 --> 00:09:10,960
+how we've evaluated our success.
+
+217
+00:09:10,960 --> 00:09:13,590
+I hope you'll be able to
+apply some of these ideas
+
+218
+00:09:13,590 --> 00:09:15,750
+to your own classes if you want.
+
+219
+00:09:15,750 --> 00:09:18,570
+I do want to start,
+though, with a disclaimer.
+
+220
+00:09:18,570 --> 00:09:21,540
+This is really a case study of
+how active learning has worked
+
+221
+00:09:21,540 --> 00:09:23,320
+in 033.
+
+222
+00:09:23,320 --> 00:09:26,310
+I'm not here to make claims
+that active learning is
+
+223
+00:09:26,310 --> 00:09:29,470
+a solution to all of
+your teaching problems.
+
+224
+00:09:29,470 --> 00:09:30,530
+I think it's very good.
+
+225
+00:09:30,530 --> 00:09:32,940
+It's probably not the
+solution to everything.
+
+226
+00:09:32,940 --> 00:09:33,790
+Nor am I even--
+
+227
+00:09:33,790 --> 00:09:35,590
+I'm not even here to
+really evangelize it
+
+228
+00:09:35,590 --> 00:09:39,061
+over any other particular
+pedagogical schemes.
+
+229
+00:09:39,061 --> 00:09:41,560
+I think it works well in 033,
+I think we've done some really
+
+230
+00:09:41,560 --> 00:09:42,642
+cool things.
+
+231
+00:09:42,642 --> 00:09:44,350
+I hope you're excited
+to hear about them.
+
+232
+00:09:44,350 --> 00:09:48,610
+So active learning.
+
+233
+00:09:48,610 --> 00:09:50,590
+As you've probably
+picked up at this point,
+
+234
+00:09:50,590 --> 00:09:53,620
+what I'm going to talk about,
+we're infusing the recitations
+
+235
+00:09:53,620 --> 00:09:55,192
+in 033 with active learning.
+
+236
+00:09:55,192 --> 00:09:56,650
+And so that means
+that really it is
+
+237
+00:09:56,650 --> 00:09:59,560
+my recitation instructors
+who are on the ground doing
+
+238
+00:09:59,560 --> 00:10:00,610
+a lot of this.
+
+239
+00:10:00,610 --> 00:10:03,730
+And I will admit, when
+we were starting out,
+
+240
+00:10:03,730 --> 00:10:05,590
+I sort of thought--
+
+241
+00:10:05,590 --> 00:10:09,550
+I had this amazing idea to do
+active learning recitations.
+
+242
+00:10:09,550 --> 00:10:11,410
+And I was like, well, I am done.
+
+243
+00:10:11,410 --> 00:10:13,030
+I have solved the problem.
+
+244
+00:10:13,030 --> 00:10:15,160
+I just told my instructors
+to implement it.
+
+245
+00:10:15,160 --> 00:10:18,100
+It was like, guys,
+active learning.
+
+246
+00:10:18,100 --> 00:10:20,530
+It didn't work.
+
+247
+00:10:20,530 --> 00:10:25,150
+I was perplexed, because I
+told my instructors correctly
+
+248
+00:10:25,150 --> 00:10:26,980
+that these types
+of activities would
+
+249
+00:10:26,980 --> 00:10:28,780
+help increase participation.
+
+250
+00:10:28,780 --> 00:10:31,120
+My instructors were the ones
+complaining about the lack
+
+251
+00:10:31,120 --> 00:10:32,110
+of participation.
+
+252
+00:10:32,110 --> 00:10:34,580
+And so I just thought come
+on, what's the problem.
+
+253
+00:10:34,580 --> 00:10:37,600
+Well it turns out you cannot
+tell your instructors to do
+
+254
+00:10:37,600 --> 00:10:40,000
+a thing that they've never
+done before and just have them
+
+255
+00:10:40,000 --> 00:10:41,470
+magically do it.
+
+256
+00:10:41,470 --> 00:10:43,420
+In particular, you can't
+tell your instructors
+
+257
+00:10:43,420 --> 00:10:45,940
+to fundamentally change
+the way they teach
+
+258
+00:10:45,940 --> 00:10:48,040
+and magically have that happen.
+
+259
+00:10:48,040 --> 00:10:49,720
+I would say it's
+difficult enough
+
+260
+00:10:49,720 --> 00:10:52,150
+for us to change
+the way we teach,
+
+261
+00:10:52,150 --> 00:10:55,900
+much less to get other people
+to change the way they teach.
+
+262
+00:10:55,900 --> 00:11:00,430
+So the first part of
+my talk is changing
+
+263
+00:11:00,430 --> 00:11:03,130
+the way other people
+teach in four easy steps.
+
+264
+00:11:03,130 --> 00:11:06,550
+So step one is get
+everyone on board.
+
+265
+00:11:06,550 --> 00:11:10,110
+So this is the first thing
+that I did, last year in 033.
+
+266
+00:11:10,110 --> 00:11:13,450
+I will keep saying last
+semester, but last year.
+
+267
+00:11:13,450 --> 00:11:16,540
+I presented active learning
+as our primary goal
+
+268
+00:11:16,540 --> 00:11:18,430
+for the entire semester.
+
+269
+00:11:18,430 --> 00:11:22,720
+So we did not wait until
+the course got settled down
+
+270
+00:11:22,720 --> 00:11:23,840
+to start doing it.
+
+271
+00:11:23,840 --> 00:11:26,230
+In fact, our very
+first staff meeting,
+
+272
+00:11:26,230 --> 00:11:29,350
+which happens before the
+semester has even begun,
+
+273
+00:11:29,350 --> 00:11:31,090
+was about active learning.
+
+274
+00:11:31,090 --> 00:11:32,750
+We had everyone on
+the staff there.
+
+275
+00:11:32,750 --> 00:11:35,500
+So me, all of my
+recitation instructors,
+
+276
+00:11:35,500 --> 00:11:38,140
+all of my TAs, all of the
+communication instructors.
+
+277
+00:11:38,140 --> 00:11:42,400
+This is about 30
+some people here.
+
+278
+00:11:42,400 --> 00:11:44,380
+And we talked about
+active learning.
+
+279
+00:11:44,380 --> 00:11:47,380
+We talked about why it's a good
+idea, the evidence that it's
+
+280
+00:11:47,380 --> 00:11:50,440
+a good idea, evidence that
+it is better than lecturing.
+
+281
+00:11:50,440 --> 00:11:53,830
+We talked about why running the
+recitations in this way would
+
+282
+00:11:53,830 --> 00:11:57,190
+support the other learning
+objectives in 033,
+
+283
+00:11:57,190 --> 00:12:00,490
+in particular the objective
+of getting students to design
+
+284
+00:12:00,490 --> 00:12:03,704
+their own systems and
+evaluate their own tradeoffs.
+
+285
+00:12:03,704 --> 00:12:05,620
+I explained to my
+instructors that there would
+
+286
+00:12:05,620 --> 00:12:08,320
+be extensive support for this.
+
+287
+00:12:08,320 --> 00:12:11,140
+And that we'd be checking
+in throughout the semester
+
+288
+00:12:11,140 --> 00:12:13,240
+to make sure this was
+really working for them
+
+289
+00:12:13,240 --> 00:12:15,720
+and working for the students.
+
+290
+00:12:15,720 --> 00:12:20,980
+Now I did expect some pushback
+on this in this meeting.
+
+291
+00:12:20,980 --> 00:12:25,210
+Partly, I am asking a
+lot of my staff here.
+
+292
+00:12:25,210 --> 00:12:27,340
+And also, I am a
+lecturer in charge
+
+293
+00:12:27,340 --> 00:12:30,350
+of a lot of faculty, who have
+been here for a very long time.
+
+294
+00:12:30,350 --> 00:12:32,740
+So I was not quite
+sure how this would go.
+
+295
+00:12:32,740 --> 00:12:34,660
+I do not know if my
+staff knew about this.
+
+296
+00:12:34,660 --> 00:12:37,240
+I actually went so far in
+preparing for this staff
+
+297
+00:12:37,240 --> 00:12:40,570
+meeting to not only write
+out all of my objectives
+
+298
+00:12:40,570 --> 00:12:42,610
+and why active learning
+was a good idea,
+
+299
+00:12:42,610 --> 00:12:46,780
+but to write my own rebuttal
+to myself and then rebut that.
+
+300
+00:12:46,780 --> 00:12:50,350
+So I sort of had, OK, if
+I didn't want to do this,
+
+301
+00:12:50,350 --> 00:12:51,935
+I'd be asking--
+well, I don't think
+
+302
+00:12:51,935 --> 00:12:53,560
+active learning is
+a good idea, I don't
+
+303
+00:12:53,560 --> 00:12:54,726
+think this is going to work.
+
+304
+00:12:54,726 --> 00:12:57,400
+And I had prepared answers
+for all of these questions.
+
+305
+00:12:57,400 --> 00:13:00,160
+I looked at the notes for that
+meeting to prepare for this.
+
+306
+00:13:00,160 --> 00:13:03,370
+And it really went
+on for quite a while.
+
+307
+00:13:03,370 --> 00:13:06,820
+I did not actually get
+that much pushback here,
+
+308
+00:13:06,820 --> 00:13:08,390
+because my staff is amazing.
+
+309
+00:13:08,390 --> 00:13:12,790
+But also, I talked to a few of
+my instructors ahead of time
+
+310
+00:13:12,790 --> 00:13:15,280
+about this, people who
+had been with the class
+
+311
+00:13:15,280 --> 00:13:19,150
+for a while, who I knew would
+be maybe a little bit more game
+
+312
+00:13:19,150 --> 00:13:20,620
+for this idea.
+
+313
+00:13:20,620 --> 00:13:23,370
+I kind of got them
+on board first.
+
+314
+00:13:23,370 --> 00:13:26,630
+I also appealed to
+everyone's scientific nature,
+
+315
+00:13:26,630 --> 00:13:28,930
+explaining that this was
+somewhat of a research
+
+316
+00:13:28,930 --> 00:13:31,570
+project, which was true.
+
+317
+00:13:31,570 --> 00:13:33,800
+I did want to know
+would this work in 033.
+
+318
+00:13:33,800 --> 00:13:35,590
+I was heavily biased
+towards the fact
+
+319
+00:13:35,590 --> 00:13:37,090
+that I thought it
+was going to work.
+
+320
+00:13:37,090 --> 00:13:40,530
+But we had methods to evaluate
+this throughout the semester.
+
+321
+00:13:40,530 --> 00:13:43,150
+And I told them if
+this goes horribly,
+
+322
+00:13:43,150 --> 00:13:44,600
+we won't keep doing it.
+
+323
+00:13:44,600 --> 00:13:46,530
+I'm not going to
+burden you with this.
+
+324
+00:13:46,530 --> 00:13:50,080
+And I enthusiastically
+mandated that this is what we
+
+325
+00:13:50,080 --> 00:13:51,850
+were trained for this semester.
+
+326
+00:13:51,850 --> 00:13:54,100
+In previous semesters,
+I had suggested
+
+327
+00:13:54,100 --> 00:13:57,230
+some of these ideas,
+encouraged my staff to try it.
+
+328
+00:13:57,230 --> 00:13:59,570
+And that really wasn't enough.
+
+329
+00:13:59,570 --> 00:14:02,160
+And so on the one hand,
+get everyone on board.
+
+330
+00:14:02,160 --> 00:14:04,480
+It was one staff meeting.
+
+331
+00:14:04,480 --> 00:14:06,130
+I will say, it was
+really tempting
+
+332
+00:14:06,130 --> 00:14:09,370
+for me to not have that
+staff meeting so soon.
+
+333
+00:14:09,370 --> 00:14:11,500
+033 is such a big class.
+
+334
+00:14:11,500 --> 00:14:15,112
+It has so many people involved.
+
+335
+00:14:15,112 --> 00:14:16,570
+It feels like we're
+just scrambling
+
+336
+00:14:16,570 --> 00:14:19,330
+to get the logistics worked
+out in the first week or two.
+
+337
+00:14:19,330 --> 00:14:22,520
+Even for us assigning
+our students to sections
+
+338
+00:14:22,520 --> 00:14:24,890
+is this whole thing.
+
+339
+00:14:24,890 --> 00:14:28,490
+But doing this really set the
+tone for the whole semester.
+
+340
+00:14:28,490 --> 00:14:31,759
+I was kind of surprised
+at how helpful this was.
+
+341
+00:14:31,759 --> 00:14:33,800
+Everybody knew the active
+learning was important.
+
+342
+00:14:33,800 --> 00:14:36,350
+Even the people who weren't
+the recitation instructors,
+
+343
+00:14:36,350 --> 00:14:39,560
+all the TAs, all the
+communications instructors,
+
+344
+00:14:39,560 --> 00:14:41,090
+they knew that it
+wasn't optional.
+
+345
+00:14:41,090 --> 00:14:43,460
+It was their primary
+goal of the semester.
+
+346
+00:14:43,460 --> 00:14:45,260
+Any other changes that
+we made in the class
+
+347
+00:14:45,260 --> 00:14:48,770
+were largely going to be
+in support of this goal.
+
+348
+00:14:48,770 --> 00:14:52,010
+So step one, get everybody
+on board with your mission.
+
+349
+00:14:52,010 --> 00:14:56,170
+Step two is do a lot of
+work, do a lot of planning.
+
+350
+00:14:56,170 --> 00:14:58,440
+So step one was our
+first staff meeting.
+
+351
+00:14:58,440 --> 00:15:01,592
+Step two, what's happening
+in our second staff meeting.
+
+352
+00:15:01,592 --> 00:15:03,050
+So one of the things
+that we did is
+
+353
+00:15:03,050 --> 00:15:06,920
+we talked about a pretty
+well-known list of something
+
+354
+00:15:06,920 --> 00:15:10,850
+like 278 different active
+learning activities.
+
+355
+00:15:10,850 --> 00:15:14,060
+I knew it was a
+lot to ask really
+
+356
+00:15:14,060 --> 00:15:18,090
+anyone to read through all 278
+active learning activities.
+
+357
+00:15:18,090 --> 00:15:19,610
+And so I annotated this list.
+
+358
+00:15:19,610 --> 00:15:21,770
+And we kind of
+discussed the highlights
+
+359
+00:15:21,770 --> 00:15:24,080
+in the staff meeting.
+
+360
+00:15:24,080 --> 00:15:27,110
+I am going to go into detail in
+the second part of this class
+
+361
+00:15:27,110 --> 00:15:30,440
+about some of the specific
+activities we do in 033,
+
+362
+00:15:30,440 --> 00:15:33,140
+but I'll give you some
+examples from this list just
+
+363
+00:15:33,140 --> 00:15:34,577
+for concreteness.
+
+364
+00:15:34,577 --> 00:15:37,160
+So one of them, which I really
+like to do in lecture actually,
+
+365
+00:15:37,160 --> 00:15:37,866
+is--
+
+366
+00:15:37,866 --> 00:15:38,990
+they all have funny names--
+
+367
+00:15:38,990 --> 00:15:41,000
+OK, so fingers on chest.
+
+368
+00:15:41,000 --> 00:15:44,537
+So this is having students vote
+on a multiple choice question,
+
+369
+00:15:44,537 --> 00:15:46,120
+but using like fingers
+on their chest.
+
+370
+00:15:46,120 --> 00:15:48,110
+So option one, option
+two, option three.
+
+371
+00:15:48,110 --> 00:15:50,179
+And that way, the
+students can't see what
+
+372
+00:15:50,179 --> 00:15:51,470
+other people are voting really.
+
+373
+00:15:51,470 --> 00:15:54,110
+They're not quite like,
+oh, everybody else
+
+374
+00:15:54,110 --> 00:15:55,140
+is voting for one.
+
+375
+00:15:55,140 --> 00:15:57,701
+They can't really see, so
+they tend to be more truthful.
+
+376
+00:15:57,701 --> 00:15:59,450
+A lot of times in
+lecture, I ask them just
+
+377
+00:15:59,450 --> 00:16:00,824
+do they feel good
+about something
+
+378
+00:16:00,824 --> 00:16:02,570
+or bad about something.
+
+379
+00:16:02,570 --> 00:16:06,470
+Another one, a fairly common
+one-- think, pair, share.
+
+380
+00:16:06,470 --> 00:16:08,660
+So posing a question
+to the class,
+
+381
+00:16:08,660 --> 00:16:10,910
+asking students
+to think about it,
+
+382
+00:16:10,910 --> 00:16:14,210
+then to share their
+ideas with a partner.
+
+383
+00:16:14,210 --> 00:16:17,630
+And then maybe go and
+address the larger class.
+
+384
+00:16:17,630 --> 00:16:19,310
+And then a third one,
+which I like just
+
+385
+00:16:19,310 --> 00:16:20,870
+because it has a nice name--
+
+386
+00:16:20,870 --> 00:16:23,140
+the name for it
+is human Tableau.
+
+387
+00:16:23,140 --> 00:16:24,980
+And so this is
+having groups create
+
+388
+00:16:24,980 --> 00:16:27,410
+living scenes which
+relate to the classroom
+
+389
+00:16:27,410 --> 00:16:29,170
+concepts or discussion.
+
+390
+00:16:29,170 --> 00:16:31,060
+So that one's a little
+bit more out there.
+
+391
+00:16:31,060 --> 00:16:33,170
+But these are the
+types of activities
+
+392
+00:16:33,170 --> 00:16:34,702
+we're thinking about.
+
+393
+00:16:34,702 --> 00:16:36,410
+And of course, we went
+through this list.
+
+394
+00:16:36,410 --> 00:16:38,118
+We looked at a whole
+bunch of activities.
+
+395
+00:16:38,118 --> 00:16:41,680
+We're not going to end up
+using all of them in 033.
+
+396
+00:16:41,680 --> 00:16:44,570
+But going through those list,
+it was a really good exercise
+
+397
+00:16:44,570 --> 00:16:45,740
+for all of us.
+
+398
+00:16:45,740 --> 00:16:47,450
+It gave everyone a
+much better sense
+
+399
+00:16:47,450 --> 00:16:51,870
+of what is active learning or
+what can active learning be.
+
+400
+00:16:51,870 --> 00:16:54,650
+But even kind of
+armed with that list,
+
+401
+00:16:54,650 --> 00:16:57,470
+it's still a lot to
+tell your instructors,
+
+402
+00:16:57,470 --> 00:17:02,910
+here's your 278 activities,
+now go, now do active learning.
+
+403
+00:17:02,910 --> 00:17:05,780
+So in addition to
+this, I pre-planned
+
+404
+00:17:05,780 --> 00:17:07,760
+a lot of active
+learning techniques
+
+405
+00:17:07,760 --> 00:17:09,950
+into each recitation.
+
+406
+00:17:09,950 --> 00:17:11,990
+So normally, before
+active learning,
+
+407
+00:17:11,990 --> 00:17:14,300
+the way that I would
+plan recitations
+
+408
+00:17:14,300 --> 00:17:16,819
+was strictly just for
+technical content.
+
+409
+00:17:16,819 --> 00:17:18,710
+I would give my
+instructors a handful
+
+410
+00:17:18,710 --> 00:17:21,440
+of major technical issues
+they needed to hit on.
+
+411
+00:17:21,440 --> 00:17:24,710
+It helps keep our
+recitations somewhat uniform
+
+412
+00:17:24,710 --> 00:17:26,960
+so that we can be fair on exams.
+
+413
+00:17:26,960 --> 00:17:28,850
+We do test the
+technical material
+
+414
+00:17:28,850 --> 00:17:30,570
+on exams in this class.
+
+415
+00:17:30,570 --> 00:17:32,150
+Beyond that though,
+my instructors
+
+416
+00:17:32,150 --> 00:17:35,030
+have a lot of leeway to
+teach these topics however
+
+417
+00:17:35,030 --> 00:17:37,880
+they want, a lot of leeway
+on how they teach in general.
+
+418
+00:17:37,880 --> 00:17:39,620
+I had never before
+tried to steer them
+
+419
+00:17:39,620 --> 00:17:41,820
+in a particular direction.
+
+420
+00:17:41,820 --> 00:17:44,380
+But now, in addition to
+that technical content,
+
+421
+00:17:44,380 --> 00:17:47,990
+what I would do is I would put
+two or three active learning
+
+422
+00:17:47,990 --> 00:17:51,470
+activities or techniques
+into each recitation.
+
+423
+00:17:51,470 --> 00:17:53,930
+So things like
+pointing out places
+
+424
+00:17:53,930 --> 00:17:56,030
+where they could have
+students break into groups
+
+425
+00:17:56,030 --> 00:17:58,700
+and think about a particular
+question, pointing out
+
+426
+00:17:58,700 --> 00:18:01,820
+places where they could
+hold a debate in the class.
+
+427
+00:18:01,820 --> 00:18:04,400
+And again, I'm going to talk
+about these specific activities
+
+428
+00:18:04,400 --> 00:18:06,965
+we do in the second
+part of this talk.
+
+429
+00:18:06,965 --> 00:18:09,230
+But planning
+activities in this way
+
+430
+00:18:09,230 --> 00:18:10,910
+meant that my
+instructors has had
+
+431
+00:18:10,910 --> 00:18:13,130
+a lot of ideas of
+how they can make
+
+432
+00:18:13,130 --> 00:18:15,020
+this work in their sections.
+
+433
+00:18:15,020 --> 00:18:18,665
+Giving them multiple ideas and
+multiple types of ideas really
+
+434
+00:18:18,665 --> 00:18:20,540
+meant that they could
+pick the ones that they
+
+435
+00:18:20,540 --> 00:18:22,040
+were the most comfortable with.
+
+436
+00:18:22,040 --> 00:18:24,290
+So instead of saying, hey,
+here's this really, really
+
+437
+00:18:24,290 --> 00:18:27,290
+out there idea, everybody
+go try it, some of them
+
+438
+00:18:27,290 --> 00:18:29,570
+might try some of the
+more extreme ones,
+
+439
+00:18:29,570 --> 00:18:31,670
+but everybody could
+kind of find something
+
+440
+00:18:31,670 --> 00:18:33,620
+that they were comfortable with.
+
+441
+00:18:33,620 --> 00:18:37,090
+So get everybody on
+board, plan things,
+
+442
+00:18:37,090 --> 00:18:39,920
+And the next thing that I
+did was support my staff
+
+443
+00:18:39,920 --> 00:18:41,550
+as individuals.
+
+444
+00:18:41,550 --> 00:18:43,310
+So I didn't plan
+these activities
+
+445
+00:18:43,310 --> 00:18:44,960
+and set the staff free.
+
+446
+00:18:44,960 --> 00:18:48,220
+I actually observed them
+throughout the semester.
+
+447
+00:18:48,220 --> 00:18:49,970
+And I made sure
+to stress that it
+
+448
+00:18:49,970 --> 00:18:51,560
+wasn't any sort of evaluation.
+
+449
+00:18:51,560 --> 00:18:55,220
+I was not there to
+say, oh, boy, Karen,
+
+450
+00:18:55,220 --> 00:18:57,694
+this is really not working out.
+
+451
+00:18:57,694 --> 00:18:59,360
+I was just there to
+see what was working
+
+452
+00:18:59,360 --> 00:19:01,430
+and what wasn't, so
+that we could all
+
+453
+00:19:01,430 --> 00:19:03,710
+iterate on these things.
+
+454
+00:19:03,710 --> 00:19:06,350
+In practice, this was great.
+
+455
+00:19:06,350 --> 00:19:09,620
+I, of course, found
+way more good things
+
+456
+00:19:09,620 --> 00:19:11,610
+in doing this than
+anything problematic.
+
+457
+00:19:11,610 --> 00:19:13,190
+Most of my feedback
+to my instructors
+
+458
+00:19:13,190 --> 00:19:15,170
+was, hey, you did this
+really awesome thing,
+
+459
+00:19:15,170 --> 00:19:16,753
+you should do more
+of that, and can we
+
+460
+00:19:16,753 --> 00:19:18,270
+share it with everybody else.
+
+461
+00:19:18,270 --> 00:19:20,435
+And so, I really,
+in the end kind
+
+462
+00:19:20,435 --> 00:19:22,560
+of thought of myself more
+as a cheerleader for them
+
+463
+00:19:22,560 --> 00:19:25,000
+and what they were doing,
+than someone who was coming in
+
+464
+00:19:25,000 --> 00:19:27,310
+are really critiquing anything.
+
+465
+00:19:27,310 --> 00:19:30,190
+I also got a lot of
+great ideas from them,
+
+466
+00:19:30,190 --> 00:19:34,812
+both in how to present certain
+technical content and twists
+
+467
+00:19:34,812 --> 00:19:36,520
+on some of the active
+learning techniques
+
+468
+00:19:36,520 --> 00:19:38,320
+that I had suggested.
+
+469
+00:19:38,320 --> 00:19:42,160
+So related to that, I'm
+observing them as individuals,
+
+470
+00:19:42,160 --> 00:19:45,160
+but we would also
+talk a lot as a group
+
+471
+00:19:45,160 --> 00:19:46,870
+about how this was going.
+
+472
+00:19:46,870 --> 00:19:49,210
+Every staff meeting
+we'd take time
+
+473
+00:19:49,210 --> 00:19:52,600
+to talk about what went
+well the previous week.
+
+474
+00:19:52,600 --> 00:19:55,150
+Our instructors would
+share active learning ideas
+
+475
+00:19:55,150 --> 00:19:57,920
+that they tried, report
+on how they went.
+
+476
+00:19:57,920 --> 00:19:59,420
+This was really nice.
+
+477
+00:19:59,420 --> 00:20:02,410
+It got some of my more
+hesitant instructors kind
+
+478
+00:20:02,410 --> 00:20:04,930
+of on board with this,
+to say like, oh, well,
+
+479
+00:20:04,930 --> 00:20:07,210
+that person tried it and it
+seemed like it went really
+
+480
+00:20:07,210 --> 00:20:07,710
+well.
+
+481
+00:20:07,710 --> 00:20:09,640
+Maybe I'll try that next time.
+
+482
+00:20:09,640 --> 00:20:11,950
+And of course, the
+thing that turned out
+
+483
+00:20:11,950 --> 00:20:15,490
+to be so great about this,
+is that all of my instructors
+
+484
+00:20:15,490 --> 00:20:18,700
+have these amazing ideas on
+how to teach certain things.
+
+485
+00:20:18,700 --> 00:20:20,710
+But to them, it
+doesn't seem special,
+
+486
+00:20:20,710 --> 00:20:24,130
+like this is just always the way
+I've taught operating systems.
+
+487
+00:20:24,130 --> 00:20:26,410
+And so, now we have this
+space where we're getting
+
+488
+00:20:26,410 --> 00:20:28,030
+to share all of these ideas.
+
+489
+00:20:28,030 --> 00:20:30,430
+A lot of them relate to how
+our active learning has gone.
+
+490
+00:20:30,430 --> 00:20:33,070
+But sometimes it's just,
+hey, I taught this paper
+
+491
+00:20:33,070 --> 00:20:35,120
+this really cool way.
+
+492
+00:20:35,120 --> 00:20:38,320
+It has also-- the fact that
+we've now kind of fostered
+
+493
+00:20:38,320 --> 00:20:41,290
+this space for discussion
+at every staff meeting,
+
+494
+00:20:41,290 --> 00:20:43,780
+everybody is pretty
+willing to bring up
+
+495
+00:20:43,780 --> 00:20:46,850
+things that aren't going as
+well, to maybe come in and say,
+
+496
+00:20:46,850 --> 00:20:49,030
+hey, I tried this
+active learning thing
+
+497
+00:20:49,030 --> 00:20:50,994
+and it did not work at all.
+
+498
+00:20:50,994 --> 00:20:51,910
+What do you all think?
+
+499
+00:20:51,910 --> 00:20:54,330
+Is there something I could
+have done differently?
+
+500
+00:20:54,330 --> 00:20:57,360
+Is this just not something
+that will work for our class?
+
+501
+00:20:57,360 --> 00:21:00,040
+And so that has been
+really, really great,
+
+502
+00:21:00,040 --> 00:21:04,330
+having this space for my staff
+to kind of reflect on this
+
+503
+00:21:04,330 --> 00:21:07,450
+and not feel judged in any way.
+
+504
+00:21:07,450 --> 00:21:12,250
+So this is the first part of
+getting active learning to work
+
+505
+00:21:12,250 --> 00:21:16,550
+in 033, which was a
+lot of staff training.
+
+506
+00:21:16,550 --> 00:21:18,830
+But now the second part--
+
+507
+00:21:18,830 --> 00:21:20,770
+what do we actually do?
+
+508
+00:21:20,770 --> 00:21:23,040
+What are these activities?
+
+509
+00:21:23,040 --> 00:21:27,160
+I would like to give you some
+specific examples from 033,
+
+510
+00:21:27,160 --> 00:21:31,240
+but I will also try to give you
+some general feedback as well.
+
+511
+00:21:31,240 --> 00:21:34,420
+I realize you probably won't be
+able to take the 033 activities
+
+512
+00:21:34,420 --> 00:21:38,620
+exactly into your classes,
+so let me talk about some
+
+513
+00:21:38,620 --> 00:21:40,550
+of the common things that we do.
+
+514
+00:21:40,550 --> 00:21:43,030
+So these are things that
+we've seen work really well
+
+515
+00:21:43,030 --> 00:21:44,710
+in our classes.
+
+516
+00:21:44,710 --> 00:21:48,220
+So one of the most common types
+of active learning that we do
+
+517
+00:21:48,220 --> 00:21:51,070
+is one I have already
+referenced a lot, which
+
+518
+00:21:51,070 --> 00:21:55,810
+is to put students in small
+groups, have them do something,
+
+519
+00:21:55,810 --> 00:21:59,030
+and then bring them back
+for a class-wide discussion.
+
+520
+00:21:59,030 --> 00:22:01,600
+So let me give you some
+really specific examples.
+
+521
+00:22:01,600 --> 00:22:05,110
+We have a recitation where we
+talk about content distribution
+
+522
+00:22:05,110 --> 00:22:06,100
+networks.
+
+523
+00:22:06,100 --> 00:22:09,130
+The paper they read
+describes various goals
+
+524
+00:22:09,130 --> 00:22:12,680
+of those networks, so
+performance, reliability,
+
+525
+00:22:12,680 --> 00:22:14,920
+scalability, things like this.
+
+526
+00:22:14,920 --> 00:22:16,420
+And what we'll do
+in that recitation
+
+527
+00:22:16,420 --> 00:22:19,300
+is we'll divide the
+class up into groups.
+
+528
+00:22:19,300 --> 00:22:21,310
+And we'll have each
+group think about what
+
+529
+00:22:21,310 --> 00:22:24,310
+aspects of the system
+support a particular goal.
+
+530
+00:22:24,310 --> 00:22:28,120
+So you think about performance,
+you think about reliability,
+
+531
+00:22:28,120 --> 00:22:30,880
+you think about
+scalability, et cetera.
+
+532
+00:22:30,880 --> 00:22:33,430
+And then we'll bring the
+class back to a discussion
+
+533
+00:22:33,430 --> 00:22:35,500
+once they've thought
+about that for a while.
+
+534
+00:22:35,500 --> 00:22:38,920
+Another example, when we talk
+about naming in the Unix file
+
+535
+00:22:38,920 --> 00:22:42,370
+system, we start by asking
+them, what things have names?
+
+536
+00:22:42,370 --> 00:22:43,810
+What things in Unix have names?
+
+537
+00:22:43,810 --> 00:22:45,310
+And again, we'll
+put them in groups.
+
+538
+00:22:45,310 --> 00:22:48,370
+We'll try to get every group to
+come up with as many things as
+
+539
+00:22:48,370 --> 00:22:49,510
+possible.
+
+540
+00:22:49,510 --> 00:22:51,490
+Because when we bring
+them back together,
+
+541
+00:22:51,490 --> 00:22:53,870
+we'll try to get a different
+thing from every group.
+
+542
+00:22:53,870 --> 00:22:55,670
+So you can't all
+just say files, you
+
+543
+00:22:55,670 --> 00:22:58,660
+have to say like files, and
+directories, and processes.
+
+544
+00:22:58,660 --> 00:23:01,440
+And there's a lot of things
+in Unix that have names.
+
+545
+00:23:01,440 --> 00:23:04,560
+I'm not here to make
+you Unix experts.
+
+546
+00:23:04,560 --> 00:23:07,690
+And so, in both of those
+examples, like I said,
+
+547
+00:23:07,690 --> 00:23:10,570
+we'll bring the class back
+together for a discussion.
+
+548
+00:23:10,570 --> 00:23:14,020
+We'll try to have each
+group say something.
+
+549
+00:23:14,020 --> 00:23:17,860
+And as I said before, we've
+seen very clearly, talking
+
+550
+00:23:17,860 --> 00:23:19,990
+in these small
+groups before hand,
+
+551
+00:23:19,990 --> 00:23:24,430
+really makes the shyer
+students a lot more confident.
+
+552
+00:23:24,430 --> 00:23:27,610
+And asking each group to
+contribute to the discussion
+
+553
+00:23:27,610 --> 00:23:30,520
+means that we don't end up with
+something that is dominated
+
+554
+00:23:30,520 --> 00:23:33,160
+by one or two groups.
+
+555
+00:23:33,160 --> 00:23:36,130
+Often, we'll even be a little
+bit more relaxed about it.
+
+556
+00:23:36,130 --> 00:23:40,150
+We will just ask a big question,
+some sort of thought question,
+
+557
+00:23:40,150 --> 00:23:43,265
+not just a tell me this
+fact from the paper.
+
+558
+00:23:43,265 --> 00:23:45,050
+We'll break them up
+in the small groups,
+
+559
+00:23:45,050 --> 00:23:47,050
+have them think about it,
+and come back together
+
+560
+00:23:47,050 --> 00:23:49,570
+for a discussion.
+
+561
+00:23:49,570 --> 00:23:51,820
+It's nice, it breaks
+up the recitation.
+
+562
+00:23:51,820 --> 00:23:55,240
+It gets them kind of
+talking and doing things.
+
+563
+00:23:55,240 --> 00:23:59,500
+We occasionally will have
+our TAs teach in this class.
+
+564
+00:23:59,500 --> 00:24:02,510
+And we encourage them to use
+these techniques as well.
+
+565
+00:24:02,510 --> 00:24:04,600
+And one of them asked me
+a really good question
+
+566
+00:24:04,600 --> 00:24:06,430
+that I realized I had
+never thought about.
+
+567
+00:24:06,430 --> 00:24:08,800
+She said, what do I do
+when they're in groups?
+
+568
+00:24:08,800 --> 00:24:12,070
+Like, do I just stand
+there and stare at them?
+
+569
+00:24:12,070 --> 00:24:14,770
+Probably not, that's
+probably not good.
+
+570
+00:24:14,770 --> 00:24:17,970
+So to tell you what we do
+while they're in groups,
+
+571
+00:24:17,970 --> 00:24:20,446
+sometimes our instructors
+might actually check in
+
+572
+00:24:20,446 --> 00:24:21,820
+with each group,
+to say, oh, hey,
+
+573
+00:24:21,820 --> 00:24:23,260
+what are you guys
+thinking about?
+
+574
+00:24:23,260 --> 00:24:25,900
+Sometimes, you're kind
+of lightly monitoring,
+
+575
+00:24:25,900 --> 00:24:28,210
+you're walking around.
+
+576
+00:24:28,210 --> 00:24:30,730
+I know when I cover
+recitations, sometimes
+
+577
+00:24:30,730 --> 00:24:33,327
+I use it as time to prep for
+the thing that is coming next.
+
+578
+00:24:33,327 --> 00:24:35,410
+So if I need to draw
+something on the board that's
+
+579
+00:24:35,410 --> 00:24:37,550
+going to take a minute,
+I'll put you all in groups
+
+580
+00:24:37,550 --> 00:24:39,880
+so you can discuss
+while I draw that.
+
+581
+00:24:39,880 --> 00:24:43,330
+So this works really
+well as a technique
+
+582
+00:24:43,330 --> 00:24:45,450
+to get students
+engaged and talking,
+
+583
+00:24:45,450 --> 00:24:48,010
+and honestly, it's also nice
+from a classroom management
+
+584
+00:24:48,010 --> 00:24:48,709
+perspective.
+
+585
+00:24:48,709 --> 00:24:51,250
+It breaks things up, it gives
+you a little break from talking
+
+586
+00:24:51,250 --> 00:24:53,390
+and you can drink some water.
+
+587
+00:24:53,390 --> 00:24:55,546
+So that is kind of
+our starting point.
+
+588
+00:24:55,546 --> 00:24:57,670
+This is one thing where I
+would say we do something
+
+589
+00:24:57,670 --> 00:25:01,870
+like this in almost every
+single recitation, every Tuesday
+
+590
+00:25:01,870 --> 00:25:03,250
+and Thursday.
+
+591
+00:25:03,250 --> 00:25:06,220
+The second one is one
+that I really like,
+
+592
+00:25:06,220 --> 00:25:08,960
+which is to have
+the students debate.
+
+593
+00:25:08,960 --> 00:25:12,160
+It's a little bit harder
+to work into a recitation.
+
+594
+00:25:12,160 --> 00:25:15,010
+You need a question
+that can be debated.
+
+595
+00:25:15,010 --> 00:25:18,280
+For us, we have one
+recitation where the students
+
+596
+00:25:18,280 --> 00:25:20,230
+read two short papers.
+
+597
+00:25:20,230 --> 00:25:22,799
+And the papers actually come
+to opposing conclusions.
+
+598
+00:25:22,799 --> 00:25:24,590
+And so it's an interesting
+lesson for them,
+
+599
+00:25:24,590 --> 00:25:26,410
+well, how could this
+happen in science?
+
+600
+00:25:26,410 --> 00:25:30,890
+How could data say
+two different things?
+
+601
+00:25:30,890 --> 00:25:35,640
+It is mind-blowing for them,
+honestly, it's pretty wild.
+
+602
+00:25:35,640 --> 00:25:38,790
+And so we'll split
+them into two teams.
+
+603
+00:25:38,790 --> 00:25:42,280
+And we'll give them each
+a paper, have them debate.
+
+604
+00:25:42,280 --> 00:25:45,130
+The students usually
+really like this.
+
+605
+00:25:45,130 --> 00:25:48,290
+They love to argue, so they're
+very excited to do this.
+
+606
+00:25:48,290 --> 00:25:51,580
+It does involve a
+bit more monitoring.
+
+607
+00:25:51,580 --> 00:25:54,700
+You want to make sure that
+one team, or one person,
+
+608
+00:25:54,700 --> 00:25:56,470
+or one team doesn't dominate.
+
+609
+00:25:56,470 --> 00:26:00,040
+To combat that, we'll always
+have the teams converse
+
+610
+00:26:00,040 --> 00:26:02,350
+beforehand, kind of get
+your argument together
+
+611
+00:26:02,350 --> 00:26:05,290
+so you're ready to
+prepare it for the class.
+
+612
+00:26:05,290 --> 00:26:07,600
+I personally think something
+like that could also
+
+613
+00:26:07,600 --> 00:26:09,140
+work in small groups.
+
+614
+00:26:09,140 --> 00:26:12,820
+Maybe you have groups of
+four, teams of two, debating.
+
+615
+00:26:12,820 --> 00:26:16,060
+I will say, when I've taught
+this recitation, of these two
+
+616
+00:26:16,060 --> 00:26:19,550
+papers, there's like a
+clear winner in my mind.
+
+617
+00:26:19,550 --> 00:26:21,880
+The last time I taught
+this, the opposing team
+
+618
+00:26:21,880 --> 00:26:24,400
+made some very salient points.
+
+619
+00:26:24,400 --> 00:26:27,730
+So they really do
+well with this.
+
+620
+00:26:27,730 --> 00:26:30,370
+So this one is one that
+I think is really fun,
+
+621
+00:26:30,370 --> 00:26:32,920
+just a little bit more
+difficult to work in
+
+622
+00:26:32,920 --> 00:26:35,290
+because of what it requires.
+
+623
+00:26:35,290 --> 00:26:37,240
+A third one, something
+that we've actually
+
+624
+00:26:37,240 --> 00:26:41,830
+started doing more of this year,
+is having them draw pictures.
+
+625
+00:26:41,830 --> 00:26:45,850
+So we'll ask them, in
+groups, to draw pictures
+
+626
+00:26:45,850 --> 00:26:48,210
+on the board of whatever
+system we're talking about,
+
+627
+00:26:48,210 --> 00:26:50,790
+or maybe some component
+of that system.
+
+628
+00:26:50,790 --> 00:26:53,350
+And what we end up
+with is a wide variety
+
+629
+00:26:53,350 --> 00:26:56,700
+of drawings of varying
+levels of artistic skill.
+
+630
+00:26:56,700 --> 00:26:59,290
+And we can come
+together and talk about,
+
+631
+00:26:59,290 --> 00:27:01,180
+what is each drawing showing?
+
+632
+00:27:01,180 --> 00:27:03,850
+What are the common
+things that we're seeing
+
+633
+00:27:03,850 --> 00:27:05,380
+in all of these depictions?
+
+634
+00:27:05,380 --> 00:27:08,270
+What level of abstraction
+is each drawing capturing?
+
+635
+00:27:08,270 --> 00:27:12,490
+That's something that comes
+up a lot for us in 033.
+
+636
+00:27:12,490 --> 00:27:15,280
+I like this for a few reasons.
+
+637
+00:27:15,280 --> 00:27:19,420
+For 033 specifically, part of
+our communication curriculum
+
+638
+00:27:19,420 --> 00:27:23,620
+involves teaching the students
+how to design and draw figures.
+
+639
+00:27:23,620 --> 00:27:27,610
+So this, for us, this is just a
+great way for them to practice.
+
+640
+00:27:27,610 --> 00:27:30,970
+It also forces them to figure
+out exactly what the system is
+
+641
+00:27:30,970 --> 00:27:32,000
+doing.
+
+642
+00:27:32,000 --> 00:27:33,880
+And so we can expose
+some areas where
+
+643
+00:27:33,880 --> 00:27:35,320
+they might have
+missed something,
+
+644
+00:27:35,320 --> 00:27:36,580
+which always happens.
+
+645
+00:27:36,580 --> 00:27:39,520
+We expect them to read the
+papers before they come in.
+
+646
+00:27:39,520 --> 00:27:41,500
+They should be able
+to draw something.
+
+647
+00:27:41,500 --> 00:27:45,570
+It might not be perfect, and
+that gives us a great space
+
+648
+00:27:45,570 --> 00:27:48,540
+to explore that, like
+why was this confusing?
+
+649
+00:27:48,540 --> 00:27:51,400
+What is it about the paper
+that made this confusing?
+
+650
+00:27:51,400 --> 00:27:52,900
+It's also just fun.
+
+651
+00:27:52,900 --> 00:27:55,030
+So the students get
+a kick out of it.
+
+652
+00:27:55,030 --> 00:27:59,535
+Now the last activity that I
+want to talk about, this is,
+
+653
+00:27:59,535 --> 00:28:00,910
+I'm going to say
+that this is one
+
+654
+00:28:00,910 --> 00:28:03,010
+of our more extreme activities.
+
+655
+00:28:03,010 --> 00:28:05,600
+We actually do it
+pretty frequently.
+
+656
+00:28:05,600 --> 00:28:07,300
+We will have students
+act things out.
+
+657
+00:28:07,300 --> 00:28:09,790
+Also, the hardest
+to make an icon for,
+
+658
+00:28:09,790 --> 00:28:12,250
+I just didn't know
+what to do there.
+
+659
+00:28:12,250 --> 00:28:14,880
+They're acting, you can tell.
+
+660
+00:28:14,880 --> 00:28:19,030
+Now, I tell people about this
+a lot, and whenever I say it,
+
+661
+00:28:19,030 --> 00:28:21,670
+like, oh, we act things
+out in 033 all the time,
+
+662
+00:28:21,670 --> 00:28:23,920
+they are for sure intrigued.
+
+663
+00:28:23,920 --> 00:28:27,050
+They are not sure exactly
+what that would entail.
+
+664
+00:28:27,050 --> 00:28:30,470
+So I was going to have
+you all do this activity,
+
+665
+00:28:30,470 --> 00:28:34,060
+but we're half going
+to do this activity.
+
+666
+00:28:34,060 --> 00:28:36,220
+So I kind of want to go
+through one of our examples
+
+667
+00:28:36,220 --> 00:28:37,640
+actually in detail.
+
+668
+00:28:37,640 --> 00:28:41,302
+We have them act out a
+system called MapReduce.
+
+669
+00:28:41,302 --> 00:28:42,760
+But for this to
+make any sense, you
+
+670
+00:28:42,760 --> 00:28:45,970
+need to understand a little
+bit about what MapReduce does.
+
+671
+00:28:45,970 --> 00:28:48,340
+So you're going to become--
+
+672
+00:28:48,340 --> 00:28:50,280
+I don't want to say
+MapReduce experts,
+
+673
+00:28:50,280 --> 00:28:53,230
+MapReduce novices for
+the next five minutes.
+
+674
+00:28:53,230 --> 00:28:57,090
+All right, so, brief aside
+of technical material.
+
+675
+00:28:57,090 --> 00:28:59,200
+MapReduce is this
+system for performing
+
+676
+00:28:59,200 --> 00:29:01,330
+parallel computation.
+
+677
+00:29:01,330 --> 00:29:04,000
+And so here's the
+canonical example.
+
+678
+00:29:04,000 --> 00:29:06,970
+We have a large piece of text.
+
+679
+00:29:06,970 --> 00:29:10,240
+The Library of Congress
+has a lot of books in it.
+
+680
+00:29:10,240 --> 00:29:12,520
+These books, we're
+going to digitize this,
+
+681
+00:29:12,520 --> 00:29:14,920
+and so the data from
+these books is spread out
+
+682
+00:29:14,920 --> 00:29:17,590
+on all different machines.
+
+683
+00:29:17,590 --> 00:29:19,060
+So we have a lot of computers.
+
+684
+00:29:19,060 --> 00:29:21,160
+Let's say, you all
+can be computers.
+
+685
+00:29:21,160 --> 00:29:24,910
+So each one of you has a book
+from the Library of Congress.
+
+686
+00:29:24,910 --> 00:29:27,700
+And here's the problem
+that we want to solve,
+
+687
+00:29:27,700 --> 00:29:29,410
+the canonical MapReduce problem.
+
+688
+00:29:29,410 --> 00:29:32,170
+We want to count the
+number of occurrences
+
+689
+00:29:32,170 --> 00:29:34,952
+of each word in
+this entire corpus.
+
+690
+00:29:34,952 --> 00:29:36,910
+So I want to know, how
+many times does the word
+
+691
+00:29:36,910 --> 00:29:38,240
+apple appear?
+
+692
+00:29:38,240 --> 00:29:40,480
+How many times does
+the word ball appear?
+
+693
+00:29:40,480 --> 00:29:42,310
+How many times does
+the word the appear?
+
+694
+00:29:42,310 --> 00:29:43,180
+OK?
+
+695
+00:29:43,180 --> 00:29:45,119
+It's the canonical problem.
+
+696
+00:29:45,119 --> 00:29:47,410
+You all don't look like you
+actually want to know that.
+
+697
+00:29:47,410 --> 00:29:49,930
+You do, you want to know
+how many times the word
+
+698
+00:29:49,930 --> 00:29:52,850
+apple occurs in the
+Library of Congress.
+
+699
+00:29:52,850 --> 00:29:57,400
+So you can imagine doing
+that with one computer, where
+
+700
+00:29:57,400 --> 00:30:00,370
+that computer just reads
+every book in sequence
+
+701
+00:30:00,370 --> 00:30:02,760
+and keeps track of these counts.
+
+702
+00:30:02,760 --> 00:30:04,880
+And that would be very slow.
+
+703
+00:30:04,880 --> 00:30:06,880
+So instead, what we
+can do is we can have
+
+704
+00:30:06,880 --> 00:30:09,250
+multiple computers participate.
+
+705
+00:30:09,250 --> 00:30:12,280
+You all have a portion of
+the Library of Congress.
+
+706
+00:30:12,280 --> 00:30:14,180
+You all can read your data.
+
+707
+00:30:14,180 --> 00:30:17,090
+You can make accounts
+for your pieces of data.
+
+708
+00:30:17,090 --> 00:30:19,630
+This is the map phase.
+
+709
+00:30:19,630 --> 00:30:23,980
+And then we need some way to
+kind of combine those results.
+
+710
+00:30:23,980 --> 00:30:26,830
+So if Dipa finds that the
+word apple occurred five times
+
+711
+00:30:26,830 --> 00:30:29,150
+in her text, if Jesse found
+that it occurred six times,
+
+712
+00:30:29,150 --> 00:30:30,820
+I need some way to add those up.
+
+713
+00:30:30,820 --> 00:30:32,900
+That would be the reduce phase.
+
+714
+00:30:32,900 --> 00:30:34,960
+And so part of the
+insight of this system
+
+715
+00:30:34,960 --> 00:30:37,930
+is that there are a lot of
+common problems in computer
+
+716
+00:30:37,930 --> 00:30:40,576
+science that can be
+described this way.
+
+717
+00:30:40,576 --> 00:30:42,200
+This is a system that
+came from Google.
+
+718
+00:30:42,200 --> 00:30:44,350
+So Google is doing this
+on your data all the time.
+
+719
+00:30:44,350 --> 00:30:46,840
+They are mapping and reducing
+everything about you.
+
+720
+00:30:46,840 --> 00:30:49,580
+So let's see how that
+would actually work,
+
+721
+00:30:49,580 --> 00:30:52,320
+how this system would work.
+
+722
+00:30:52,320 --> 00:30:55,264
+Jessie, come play your
+role in this thing.
+
+723
+00:30:55,264 --> 00:30:56,680
+JESSIE: Do I have
+to wear the hat?
+
+724
+00:30:56,680 --> 00:31:00,300
+PROFESSOR: You do have to wear
+the hat, it's active learning.
+
+725
+00:31:00,300 --> 00:31:02,200
+I've got to write master on it.
+
+726
+00:31:04,840 --> 00:31:07,231
+JESSIE: I'm ready.
+
+727
+00:31:07,231 --> 00:31:08,980
+PROFESSOR: I think a
+lot of things in life
+
+728
+00:31:08,980 --> 00:31:10,307
+should be more fun.
+
+729
+00:31:10,307 --> 00:31:12,640
+So there's really no reason
+for Jessie to wear this hat.
+
+730
+00:31:12,640 --> 00:31:15,730
+But there's also not a reason
+for her not to wear this hat.
+
+731
+00:31:15,730 --> 00:31:16,230
+So--
+
+732
+00:31:16,230 --> 00:31:18,172
+JESSIE: There might be a reason.
+
+733
+00:31:18,172 --> 00:31:22,044
+AUDIENCE: This is about
+who this is fun for.
+
+734
+00:31:22,044 --> 00:31:24,779
+JESSIE: Fortunately, I can't see
+you, so now I feel comfortable.
+
+735
+00:31:24,779 --> 00:31:27,070
+PROFESSOR: Well, you can tilt
+the hat back a little bit
+
+736
+00:31:27,070 --> 00:31:27,760
+maybe.
+
+737
+00:31:27,760 --> 00:31:30,820
+So in MapReduce, there
+is the one machine
+
+738
+00:31:30,820 --> 00:31:34,480
+that acts as the coordination
+for this, the master machine,
+
+739
+00:31:34,480 --> 00:31:36,520
+as Jessie is so--
+
+740
+00:31:36,520 --> 00:31:38,960
+doing such a great
+job acting for us.
+
+741
+00:31:38,960 --> 00:31:40,920
+And so what the
+master's job would be--
+
+742
+00:31:40,920 --> 00:31:42,430
+you don't have-- you're just--
+
+743
+00:31:42,430 --> 00:31:43,900
+we just want to visualize you.
+
+744
+00:31:43,900 --> 00:31:45,790
+You're just a prop, yes.
+
+745
+00:31:45,790 --> 00:31:47,980
+So it would start by
+assigning jobs to workers.
+
+746
+00:31:47,980 --> 00:31:51,400
+Now you all, I didn't make hats
+for all of you, there wasn't--
+
+747
+00:31:51,400 --> 00:31:54,610
+I know, I'm very sorry,
+but you're all workers.
+
+748
+00:31:54,610 --> 00:31:56,354
+Only the master gets a hat.
+
+749
+00:31:56,354 --> 00:31:57,770
+All right, so you
+are all workers.
+
+750
+00:31:57,770 --> 00:32:01,660
+So one of the first things
+Master Jessie would do,
+
+751
+00:32:01,660 --> 00:32:05,470
+would be to assign
+map jobs to workers.
+
+752
+00:32:05,470 --> 00:32:07,810
+And she would tell you
+things like exactly what data
+
+753
+00:32:07,810 --> 00:32:08,740
+to operate on.
+
+754
+00:32:08,740 --> 00:32:12,830
+So imagine a scenario where
+you, a worker machine,
+
+755
+00:32:12,830 --> 00:32:15,664
+has data from a ton of
+different corpuses on it.
+
+756
+00:32:15,664 --> 00:32:17,080
+So Jessie actually
+has to say, OK,
+
+757
+00:32:17,080 --> 00:32:20,267
+worry about the Library of
+Congress part of your data.
+
+758
+00:32:20,267 --> 00:32:21,850
+And you would begin
+operating on that.
+
+759
+00:32:21,850 --> 00:32:24,245
+You'd count your words.
+
+760
+00:32:24,245 --> 00:32:27,100
+And you'd write out some
+results to your disk,
+
+761
+00:32:27,100 --> 00:32:29,359
+that you also have
+as a machine in this.
+
+762
+00:32:29,359 --> 00:32:31,900
+And then when you were done,
+you would report back to Jessie.
+
+763
+00:32:31,900 --> 00:32:35,626
+And you'd tell her some various
+meta information, kind of like,
+
+764
+00:32:35,626 --> 00:32:37,000
+these are the
+words that I found.
+
+765
+00:32:37,000 --> 00:32:38,840
+You don't have to send
+her all of your results,
+
+766
+00:32:38,840 --> 00:32:41,464
+because the Library of Congress
+is big, you have a lot of data.
+
+767
+00:32:41,464 --> 00:32:45,280
+But you might tell Jessie,
+hey, I found apple.
+
+768
+00:32:45,280 --> 00:32:48,340
+Now, once all of you are
+finished doing your map jobs,
+
+769
+00:32:48,340 --> 00:32:51,090
+Jessie has all of this
+kind of meta information,
+
+770
+00:32:51,090 --> 00:32:53,882
+she can start assigning
+the reduce jobs.
+
+771
+00:32:53,882 --> 00:32:55,840
+And the reduce jobs are
+a little bit different.
+
+772
+00:32:55,840 --> 00:32:59,205
+So Dipa if it was your job to
+reduce, say, the word apple,
+
+773
+00:32:59,205 --> 00:33:00,580
+you need to know
+a couple things.
+
+774
+00:33:00,580 --> 00:33:02,705
+You need to know, well,
+which one of these machines
+
+775
+00:33:02,705 --> 00:33:04,360
+actually found the word apple.
+
+776
+00:33:04,360 --> 00:33:05,830
+It's not necessarily
+they're going
+
+777
+00:33:05,830 --> 00:33:07,051
+to be in every piece of data.
+
+778
+00:33:07,051 --> 00:33:08,800
+And Jessie would be
+able to tell you that.
+
+779
+00:33:08,800 --> 00:33:11,650
+She'd basically say, hey,
+Dipa contact these workers,
+
+780
+00:33:11,650 --> 00:33:15,190
+they have the data you need,
+you can add them together,
+
+781
+00:33:15,190 --> 00:33:16,140
+in this example.
+
+782
+00:33:16,140 --> 00:33:19,570
+MapReduce functions can be
+much more complex than this.
+
+783
+00:33:19,570 --> 00:33:21,360
+I thought let's start slow.
+
+784
+00:33:21,360 --> 00:33:24,940
+All right, so the reduce
+workers would go, you'd reduce,
+
+785
+00:33:24,940 --> 00:33:26,980
+you'd report results
+back to Jessie,
+
+786
+00:33:26,980 --> 00:33:30,359
+and then we'd have
+our full counts.
+
+787
+00:33:30,359 --> 00:33:32,650
+I'm trying to decide how long
+I want you to stand here,
+
+788
+00:33:32,650 --> 00:33:34,900
+and the answer is for
+the rest of the talk,
+
+789
+00:33:34,900 --> 00:33:37,540
+but you can almost sit down.
+
+790
+00:33:37,540 --> 00:33:39,290
+All right, so this
+is the basic--
+
+791
+00:33:39,290 --> 00:33:40,300
+JESSIE: I thought I'd
+have more work to do.
+
+792
+00:33:40,300 --> 00:33:42,008
+PROFESSOR: I thought
+that would be a lot.
+
+793
+00:33:42,008 --> 00:33:44,260
+I didn't prep you for that.
+
+794
+00:33:44,260 --> 00:33:45,190
+Don't go yet, though.
+
+795
+00:33:45,190 --> 00:33:47,140
+JESSIE: I'm just moving over.
+
+796
+00:33:47,140 --> 00:33:49,370
+PROFESSOR: So this is the
+basic idea of MapReduce.
+
+797
+00:33:49,370 --> 00:33:51,380
+This is the type of thing
+we'd actually expect
+
+798
+00:33:51,380 --> 00:33:52,850
+the students to know coming in.
+
+799
+00:33:52,850 --> 00:33:55,820
+They've read the paper, and
+they should understand this sort
+
+800
+00:33:55,820 --> 00:33:57,680
+of level of coordination.
+
+801
+00:33:57,680 --> 00:34:00,680
+But there are a lot of
+details that we left out.
+
+802
+00:34:00,680 --> 00:34:03,440
+For instance, I didn't
+ask you all, hey, what
+
+803
+00:34:03,440 --> 00:34:04,880
+happens if a machine fails?
+
+804
+00:34:04,880 --> 00:34:07,460
+Worker Dipa crashes,
+what do we do?
+
+805
+00:34:07,460 --> 00:34:08,659
+AUDIENCE: [INAUDIBLE]
+
+806
+00:34:08,659 --> 00:34:10,310
+PROFESSOR: All the time, right?
+
+807
+00:34:10,310 --> 00:34:12,560
+Is that data that she
+was storing, is it
+
+808
+00:34:12,560 --> 00:34:14,120
+anywhere else in the system?
+
+809
+00:34:14,120 --> 00:34:15,110
+How do we know?
+
+810
+00:34:15,110 --> 00:34:17,600
+What if she had half
+finished the job?
+
+811
+00:34:17,600 --> 00:34:18,659
+What do we do?
+
+812
+00:34:18,659 --> 00:34:21,110
+Or even, what if there was
+no crash, but like let's say
+
+813
+00:34:21,110 --> 00:34:25,900
+the worker Janet is just running
+really slow, like she's going,
+
+814
+00:34:25,900 --> 00:34:30,320
+she's working hard, but
+everyone else is finished
+
+815
+00:34:30,320 --> 00:34:32,480
+and we're just waiting on Janet.
+
+816
+00:34:32,480 --> 00:34:34,399
+And these are those
+types of things.
+
+817
+00:34:34,399 --> 00:34:36,440
+Those are the interesting
+things about MapReduce.
+
+818
+00:34:36,440 --> 00:34:39,080
+That's the point where there
+are tradeoffs for the students
+
+819
+00:34:39,080 --> 00:34:39,706
+to think about.
+
+820
+00:34:39,706 --> 00:34:41,455
+So it's not just
+important to think about,
+
+821
+00:34:41,455 --> 00:34:44,090
+oh gosh, what does happen if
+a machine crashes or is slow,
+
+822
+00:34:44,090 --> 00:34:46,440
+but why does it happen that way.
+
+823
+00:34:46,440 --> 00:34:52,040
+So to do this, we actually
+have them act out this system.
+
+824
+00:34:52,040 --> 00:34:53,929
+And from the way that
+I've described it here,
+
+825
+00:34:53,929 --> 00:34:56,330
+you might think, well, I have
+one student be the master
+
+826
+00:34:56,330 --> 00:34:58,100
+and everybody else
+is a worker, that's
+
+827
+00:34:58,100 --> 00:35:00,740
+kind of what I was
+setting you all up for.
+
+828
+00:35:00,740 --> 00:35:03,200
+This is not actually
+how we do it.
+
+829
+00:35:03,200 --> 00:35:06,650
+Normally-- for one, it
+doesn't work with the size
+
+830
+00:35:06,650 --> 00:35:07,860
+of our recitations.
+
+831
+00:35:07,860 --> 00:35:11,600
+Even here, this is a lot
+of workers for one student
+
+832
+00:35:11,600 --> 00:35:12,820
+to be in charge of.
+
+833
+00:35:12,820 --> 00:35:16,010
+And also, if Jessie was
+maybe more of a shy student,
+
+834
+00:35:16,010 --> 00:35:20,000
+she's like this is the
+worst day of my entire life.
+
+835
+00:35:20,000 --> 00:35:23,090
+Katrina has made me wear a
+hat, and I have to stand--
+
+836
+00:35:23,090 --> 00:35:26,190
+I am in charge of
+everything, it's not good.
+
+837
+00:35:26,190 --> 00:35:27,140
+It's not good.
+
+838
+00:35:27,140 --> 00:35:31,072
+So in practice, here's
+how we do this activity.
+
+839
+00:35:31,072 --> 00:35:32,280
+You can sit down if you want.
+
+840
+00:35:32,280 --> 00:35:33,310
+You don't have to
+be here anymore.
+
+841
+00:35:33,310 --> 00:35:34,685
+JESSIE: Should I
+keep the hat on?
+
+842
+00:35:34,685 --> 00:35:36,560
+PROFESSOR: I think,
+definitely, yes.
+
+843
+00:35:36,560 --> 00:35:39,020
+I think absolutely.
+
+844
+00:35:39,020 --> 00:35:41,990
+So we do start by
+assigning students roles.
+
+845
+00:35:41,990 --> 00:35:44,100
+But we will usually
+have them in teams.
+
+846
+00:35:44,100 --> 00:35:46,220
+So there will be a master team.
+
+847
+00:35:46,220 --> 00:35:49,670
+Each worker will be a team of
+maybe two or three students.
+
+848
+00:35:49,670 --> 00:35:52,950
+This is good for
+a lot of reasons.
+
+849
+00:35:52,950 --> 00:35:56,120
+Again, for the reason of
+getting the shyer students
+
+850
+00:35:56,120 --> 00:35:57,840
+to be a little bit
+more comfortable,
+
+851
+00:35:57,840 --> 00:36:01,010
+no one student is in
+charge of something.
+
+852
+00:36:01,010 --> 00:36:04,220
+From a logistical
+standpoint, again, I
+
+853
+00:36:04,220 --> 00:36:06,980
+glazed over many a
+detail in MapReduce,
+
+854
+00:36:06,980 --> 00:36:09,920
+but you can imagine that
+the master has a lot to do,
+
+855
+00:36:09,920 --> 00:36:11,480
+a lot to keep track of.
+
+856
+00:36:11,480 --> 00:36:14,870
+And so we will often,
+we'll have our master team.
+
+857
+00:36:14,870 --> 00:36:17,940
+And we'll actually give each
+student in that team a task.
+
+858
+00:36:17,940 --> 00:36:22,130
+So one might run the
+clock, timing in the system
+
+859
+00:36:22,130 --> 00:36:22,890
+is important.
+
+860
+00:36:22,890 --> 00:36:24,920
+We'll see an example
+of that in a second.
+
+861
+00:36:24,920 --> 00:36:28,250
+One keeps track of what
+map tasks to complete.
+
+862
+00:36:28,250 --> 00:36:31,400
+One assigns the tasks,
+things like that.
+
+863
+00:36:31,400 --> 00:36:33,920
+We have found-- we've
+actually done this activity
+
+864
+00:36:33,920 --> 00:36:35,270
+a number of times.
+
+865
+00:36:35,270 --> 00:36:36,900
+It gets better every time.
+
+866
+00:36:36,900 --> 00:36:39,710
+One of the things we
+learned the most quickly
+
+867
+00:36:39,710 --> 00:36:41,240
+is that the master--
+we had to give
+
+868
+00:36:41,240 --> 00:36:43,240
+the students who were
+doing the master extremely
+
+869
+00:36:43,240 --> 00:36:44,510
+detailed instructions.
+
+870
+00:36:44,510 --> 00:36:47,020
+If we just said do
+the master's job,
+
+871
+00:36:47,020 --> 00:36:48,920
+they were not ready for that.
+
+872
+00:36:48,920 --> 00:36:51,230
+In some sections, in fact,
+some of my instructors
+
+873
+00:36:51,230 --> 00:36:54,290
+prefer to do this where the
+instructor just is the master,
+
+874
+00:36:54,290 --> 00:36:57,170
+and so they can be kind of
+in charge of coordination.
+
+875
+00:36:57,170 --> 00:37:00,200
+Workers in this example get a
+little bit of an easier job.
+
+876
+00:37:00,200 --> 00:37:02,810
+Again, we're putting them
+in teams of two to three.
+
+877
+00:37:02,810 --> 00:37:06,050
+Sometimes we might give them
+a sheet with words on it,
+
+878
+00:37:06,050 --> 00:37:08,810
+and actually ask them
+to count the words.
+
+879
+00:37:08,810 --> 00:37:12,050
+Sometimes we'll give them
+a sheet that kind of just
+
+880
+00:37:12,050 --> 00:37:15,290
+says here's the words in your
+data and here are the counts.
+
+881
+00:37:15,290 --> 00:37:18,560
+That might seem like, oh,
+gosh what's the point,
+
+882
+00:37:18,560 --> 00:37:20,930
+they're not actually
+doing the worker job.
+
+883
+00:37:20,930 --> 00:37:24,650
+Counting the words in the text
+is not the interesting part
+
+884
+00:37:24,650 --> 00:37:25,740
+of this system.
+
+885
+00:37:25,740 --> 00:37:27,500
+So sometimes we'll
+just skip that.
+
+886
+00:37:27,500 --> 00:37:30,860
+It also, again, lets us do
+some very precise things
+
+887
+00:37:30,860 --> 00:37:32,300
+with timing.
+
+888
+00:37:32,300 --> 00:37:34,220
+So once these
+roles are assigned,
+
+889
+00:37:34,220 --> 00:37:36,410
+we're going to run the protocol.
+
+890
+00:37:36,410 --> 00:37:39,260
+So the person keeping
+track of the master clock
+
+891
+00:37:39,260 --> 00:37:42,920
+will advance it, one click,
+two clicks, et cetera.
+
+892
+00:37:42,920 --> 00:37:45,680
+Various map jobs will complete.
+
+893
+00:37:45,680 --> 00:37:47,930
+Most of the time, when we
+give them a paper that says,
+
+894
+00:37:47,930 --> 00:37:50,390
+here's your words and your
+counts, we'll also say,
+
+895
+00:37:50,390 --> 00:37:53,610
+hey, it takes three clock
+cycles for you to complete.
+
+896
+00:37:53,610 --> 00:37:56,300
+And so once the clock
+has ticked three times,
+
+897
+00:37:56,300 --> 00:37:59,300
+they'll report back
+to the master team.
+
+898
+00:37:59,300 --> 00:38:02,120
+Because of how we set up
+those map tasks, some of them
+
+899
+00:38:02,120 --> 00:38:03,350
+will also fail.
+
+900
+00:38:03,350 --> 00:38:06,320
+Some of them will have
+papers that say, oh, I
+
+901
+00:38:06,320 --> 00:38:07,460
+failed after click two.
+
+902
+00:38:07,460 --> 00:38:09,740
+And they have to
+announce it to the class.
+
+903
+00:38:09,740 --> 00:38:11,660
+And at that point, we pause.
+
+904
+00:38:11,660 --> 00:38:13,260
+What happens?
+
+905
+00:38:13,260 --> 00:38:14,870
+What happens when
+a machine fails?
+
+906
+00:38:14,870 --> 00:38:16,470
+What does MapReduce do?
+
+907
+00:38:16,470 --> 00:38:18,836
+Why does it do that?
+
+908
+00:38:18,836 --> 00:38:21,420
+The spoiler for you all
+in MapReduce, the master
+
+909
+00:38:21,420 --> 00:38:23,300
+will reassign that
+task to somewhere else.
+
+910
+00:38:23,300 --> 00:38:25,370
+And part of that
+challenge is making sure
+
+911
+00:38:25,370 --> 00:38:28,070
+that the new worker has
+access to the data that
+
+912
+00:38:28,070 --> 00:38:29,630
+was on the crashed machine.
+
+913
+00:38:29,630 --> 00:38:33,262
+MapReduce replicates data, so
+we talk about how that happens.
+
+914
+00:38:33,262 --> 00:38:35,240
+And the protocol continues.
+
+915
+00:38:35,240 --> 00:38:38,630
+The students will find that one
+map task, it hasn't crashed,
+
+916
+00:38:38,630 --> 00:38:40,950
+but it's taking
+a very long time.
+
+917
+00:38:40,950 --> 00:38:43,130
+And that's another good
+point for discussion.
+
+918
+00:38:43,130 --> 00:38:44,600
+What does MapReduce do?
+
+919
+00:38:44,600 --> 00:38:46,370
+Does it just wait?
+
+920
+00:38:46,370 --> 00:38:49,490
+In practice, it restarts
+the task in another machine.
+
+921
+00:38:49,490 --> 00:38:51,950
+And then, so, oh, there's a
+question, these two machines
+
+922
+00:38:51,950 --> 00:38:53,930
+are running the same thing.
+
+923
+00:38:53,930 --> 00:38:54,597
+What do we do?
+
+924
+00:38:54,597 --> 00:38:55,430
+Who do we listen to?
+
+925
+00:38:55,430 --> 00:38:57,110
+How do we get the data?
+
+926
+00:38:57,110 --> 00:39:01,280
+And this is why the timing of
+that activity is so important,
+
+927
+00:39:01,280 --> 00:39:03,740
+because a lot of the discussion
+points about MapReduce
+
+928
+00:39:03,740 --> 00:39:08,150
+come from what we do when things
+are slow or when things fail.
+
+929
+00:39:08,150 --> 00:39:11,640
+So being in control of
+that timing is crucial.
+
+930
+00:39:11,640 --> 00:39:14,780
+We do have some variations
+on this activity though.
+
+931
+00:39:14,780 --> 00:39:18,050
+One of our instructors this year
+had students count characters
+
+932
+00:39:18,050 --> 00:39:20,150
+instead of words, same idea.
+
+933
+00:39:20,150 --> 00:39:24,860
+But of the workers was
+counting Russian characters
+
+934
+00:39:24,860 --> 00:39:25,850
+instead of English.
+
+935
+00:39:25,850 --> 00:39:28,490
+So they just organically were
+much slower than the rest
+
+936
+00:39:28,490 --> 00:39:29,570
+of the class.
+
+937
+00:39:29,570 --> 00:39:32,570
+And that was kind of a
+nice way to show that.
+
+938
+00:39:32,570 --> 00:39:35,030
+Many of our instructors
+have the students
+
+939
+00:39:35,030 --> 00:39:37,490
+count types of candy
+instead of words.
+
+940
+00:39:37,490 --> 00:39:39,770
+And we bring them candy.
+
+941
+00:39:39,770 --> 00:39:41,850
+That's a big hit.
+
+942
+00:39:41,850 --> 00:39:44,270
+In fact, after we did
+this recitation this year,
+
+943
+00:39:44,270 --> 00:39:47,120
+one of our students asked
+why can't every recitation
+
+944
+00:39:47,120 --> 00:39:48,770
+be like the MapReduce one.
+
+945
+00:39:48,770 --> 00:39:51,260
+It is not clear
+how much the candy
+
+946
+00:39:51,260 --> 00:39:53,990
+factored into that question.
+
+947
+00:39:53,990 --> 00:39:55,820
+So it has taken us
+quite a few iterations
+
+948
+00:39:55,820 --> 00:39:58,640
+to get that activity working.
+
+949
+00:39:58,640 --> 00:40:00,530
+And again, I know
+you're not all teaching
+
+950
+00:40:00,530 --> 00:40:01,760
+MapReduce in your courses.
+
+951
+00:40:01,760 --> 00:40:04,010
+You're not going to take
+that activity to you.
+
+952
+00:40:04,010 --> 00:40:06,910
+But the things that
+were interesting for us,
+
+953
+00:40:06,910 --> 00:40:09,950
+having the students in teams
+for each of these roles
+
+954
+00:40:09,950 --> 00:40:12,590
+made a huge difference,
+both in terms
+
+955
+00:40:12,590 --> 00:40:15,252
+of making sure they were all
+doing the correct things,
+
+956
+00:40:15,252 --> 00:40:17,210
+but just getting them
+more comfortable with it.
+
+957
+00:40:17,210 --> 00:40:19,370
+I will tell you, the
+students go for this.
+
+958
+00:40:19,370 --> 00:40:20,450
+They are into it.
+
+959
+00:40:20,450 --> 00:40:21,890
+They map and reduce.
+
+960
+00:40:21,890 --> 00:40:26,210
+They do not think it's stupid,
+which is very, very nice.
+
+961
+00:40:26,210 --> 00:40:30,080
+And making sure that the master
+has these exceedingly detailed
+
+962
+00:40:30,080 --> 00:40:33,410
+instructions, figuring out
+how to make the timing work,
+
+963
+00:40:33,410 --> 00:40:35,780
+so that all of the things
+we wanted to discuss
+
+964
+00:40:35,780 --> 00:40:38,132
+would actually happen.
+
+965
+00:40:38,132 --> 00:40:40,340
+And so really the activity
+is the way I describe it--
+
+966
+00:40:40,340 --> 00:40:42,710
+Karen, this is
+how Karen does it.
+
+967
+00:40:42,710 --> 00:40:46,170
+Karen, you're the authoritative
+source on how we do MapReduce--
+
+968
+00:40:46,170 --> 00:40:47,210
+yeah.
+
+969
+00:40:47,210 --> 00:40:50,300
+I want to talk briefly about
+another system we act out
+
+970
+00:40:50,300 --> 00:40:51,101
+because it's fun.
+
+971
+00:40:51,101 --> 00:40:52,850
+It's one of my favorite
+things that we do.
+
+972
+00:40:52,850 --> 00:40:53,870
+It's much shorter.
+
+973
+00:40:53,870 --> 00:40:56,240
+We do this for a
+system called Raft.
+
+974
+00:40:56,240 --> 00:40:59,480
+And Raft, like MapReduce is
+this large distributed system
+
+975
+00:40:59,480 --> 00:41:01,100
+on a lot of machines.
+
+976
+00:41:01,100 --> 00:41:03,390
+Timing is also
+important in Raft.
+
+977
+00:41:03,390 --> 00:41:07,350
+In particular, machines
+set randomized timers.
+
+978
+00:41:07,350 --> 00:41:09,830
+I picked some random number
+of seconds, milliseconds,
+
+979
+00:41:09,830 --> 00:41:11,290
+whatever.
+
+980
+00:41:11,290 --> 00:41:14,820
+And when that timer
+expires, they do something.
+
+981
+00:41:14,820 --> 00:41:17,990
+So being able to act that out
+is actually really crucial.
+
+982
+00:41:17,990 --> 00:41:21,801
+And we thought, gosh, how are
+we going to randomize them?
+
+983
+00:41:21,801 --> 00:41:23,300
+And so one of my
+instructors came up
+
+984
+00:41:23,300 --> 00:41:26,960
+with the best idea, which is to
+have the students spin around
+
+985
+00:41:26,960 --> 00:41:27,770
+in a circle.
+
+986
+00:41:27,770 --> 00:41:30,470
+So like literally,
+they're standing here,
+
+987
+00:41:30,470 --> 00:41:35,600
+and then they kind of-- they
+do this, and it takes a while.
+
+988
+00:41:35,600 --> 00:41:37,970
+Because he figured
+out that students
+
+989
+00:41:37,970 --> 00:41:40,220
+just walk around naturally
+at different paces.
+
+990
+00:41:40,220 --> 00:41:42,240
+So they've effectively
+randomized themselves.
+
+991
+00:41:42,240 --> 00:41:44,750
+Someone will finish first.
+
+992
+00:41:44,750 --> 00:41:47,385
+So I need you to imagine feel
+like you're walking around MIT,
+
+993
+00:41:47,385 --> 00:41:48,760
+and you're just
+kind of like, oh,
+
+994
+00:41:48,760 --> 00:41:50,010
+what's going on in this class.
+
+995
+00:41:50,010 --> 00:41:52,190
+And you see seven
+or eight students up
+
+996
+00:41:52,190 --> 00:41:54,980
+at the front of the room just
+very quietly spinning around
+
+997
+00:41:54,980 --> 00:41:57,500
+in place, while all of the
+other students are like--
+
+998
+00:41:57,500 --> 00:41:59,990
+the person who
+finishes first wins.
+
+999
+00:41:59,990 --> 00:42:03,200
+And so who-- who is it?
+
+1000
+00:42:03,200 --> 00:42:06,170
+Who's going to be the next
+leader of this election
+
+1001
+00:42:06,170 --> 00:42:06,950
+cycle in Raft.
+
+1002
+00:42:06,950 --> 00:42:09,350
+It's really-- it
+looks ridiculous,
+
+1003
+00:42:09,350 --> 00:42:10,320
+but it works so well.
+
+1004
+00:42:10,320 --> 00:42:13,370
+And it brings me a lot of joy.
+
+1005
+00:42:13,370 --> 00:42:16,130
+So to kind of wrap
+up our activities
+
+1006
+00:42:16,130 --> 00:42:18,995
+before I get to results,
+effectively, how
+
+1007
+00:42:18,995 --> 00:42:20,510
+has this worked for us--
+
+1008
+00:42:20,510 --> 00:42:22,820
+again, we do all of
+these things a lot.
+
+1009
+00:42:22,820 --> 00:42:25,040
+This one in particular,
+small groups,
+
+1010
+00:42:25,040 --> 00:42:26,660
+a class wide discussion--
+
+1011
+00:42:26,660 --> 00:42:29,180
+although acting things out, we
+act a lot of things out now.
+
+1012
+00:42:29,180 --> 00:42:30,870
+We've gotten pretty
+good at that.
+
+1013
+00:42:30,870 --> 00:42:33,020
+And the key component for
+us has been recognizing
+
+1014
+00:42:33,020 --> 00:42:35,300
+in all of these
+cases, the students
+
+1015
+00:42:35,300 --> 00:42:37,940
+are more comfortable if they're
+not doing something alone,
+
+1016
+00:42:37,940 --> 00:42:40,700
+if they have at least one other
+person on their team doing
+
+1017
+00:42:40,700 --> 00:42:44,550
+whatever it is they need
+to do in that recitation.
+
+1018
+00:42:44,550 --> 00:42:48,980
+And since we do something
+like this in every recitation,
+
+1019
+00:42:48,980 --> 00:42:51,470
+the students just
+come to expect it.
+
+1020
+00:42:51,470 --> 00:42:52,660
+I mean, they go for it.
+
+1021
+00:42:52,660 --> 00:42:55,610
+Sometimes, I'll come in
+and cover a recitation.
+
+1022
+00:42:55,610 --> 00:42:58,070
+And despite
+observations, I'm never
+
+1023
+00:42:58,070 --> 00:43:01,016
+exactly sure how my
+instructors are leaving things.
+
+1024
+00:43:01,016 --> 00:43:02,390
+And so, I always
+start by asking,
+
+1025
+00:43:02,390 --> 00:43:04,970
+like, hey, I'm going to
+put you all in groups,
+
+1026
+00:43:04,970 --> 00:43:06,890
+is that something
+you're used to.
+
+1027
+00:43:06,890 --> 00:43:09,140
+Every time, they're
+like, yeah, we
+
+1028
+00:43:09,140 --> 00:43:12,720
+do that every day, like of
+course we can get into groups.
+
+1029
+00:43:12,720 --> 00:43:15,650
+So again, even acting things
+out, they really go for it.
+
+1030
+00:43:15,650 --> 00:43:18,260
+We try to vary the
+types of activities
+
+1031
+00:43:18,260 --> 00:43:20,480
+that we do each week, to
+keep everyone engaged,
+
+1032
+00:43:20,480 --> 00:43:22,100
+to keep things interesting.
+
+1033
+00:43:22,100 --> 00:43:26,050
+It's hard to act
+ever system out.
+
+1034
+00:43:26,050 --> 00:43:29,360
+And there's occasions where
+an activity doesn't work.
+
+1035
+00:43:29,360 --> 00:43:32,960
+The first time we tried
+MapReduce, it was chaos.
+
+1036
+00:43:32,960 --> 00:43:34,917
+But we thought it
+was a cool thing.
+
+1037
+00:43:34,917 --> 00:43:35,750
+So we just iterated.
+
+1038
+00:43:35,750 --> 00:43:37,940
+We just tried it again
+the next semester.
+
+1039
+00:43:37,940 --> 00:43:40,280
+And in planning
+all of these, we're
+
+1040
+00:43:40,280 --> 00:43:44,390
+still very careful to make sure
+that our activities actually
+
+1041
+00:43:44,390 --> 00:43:46,460
+teach them things.
+
+1042
+00:43:46,460 --> 00:43:48,680
+Like I said, all
+of the recitations
+
+1043
+00:43:48,680 --> 00:43:51,550
+have technical points
+that they have to hit on.
+
+1044
+00:43:51,550 --> 00:43:53,840
+A MapReduce activity
+where they just
+
+1045
+00:43:53,840 --> 00:43:57,950
+act out the system in its normal
+use case, it would be fun,
+
+1046
+00:43:57,950 --> 00:43:59,840
+but they're supposed to
+come in knowing that.
+
+1047
+00:43:59,840 --> 00:44:03,650
+So we really want to
+design these activities
+
+1048
+00:44:03,650 --> 00:44:05,940
+so that we're hitting on the
+points we need to hit on.
+
+1049
+00:44:05,940 --> 00:44:08,800
+So there is a lot of
+planning that goes into this.
+
+1050
+00:44:08,800 --> 00:44:12,700
+So now, for the final
+part, did it work?
+
+1051
+00:44:12,700 --> 00:44:14,520
+What got better?
+
+1052
+00:44:14,520 --> 00:44:18,640
+I'll start with a few
+actually quantitative things.
+
+1053
+00:44:18,640 --> 00:44:21,910
+Sometimes when I tell
+people about this endeavor,
+
+1054
+00:44:21,910 --> 00:44:23,720
+they want to know,
+are grades better?
+
+1055
+00:44:23,720 --> 00:44:25,270
+Have the students'
+grades improved?
+
+1056
+00:44:25,270 --> 00:44:27,320
+How are they doing on exams?
+
+1057
+00:44:27,320 --> 00:44:30,730
+I don't personally think that
+that's the right question.
+
+1058
+00:44:30,730 --> 00:44:33,790
+There is one aspect of
+grading that has improved--
+
+1059
+00:44:33,790 --> 00:44:35,290
+participation grades.
+
+1060
+00:44:35,290 --> 00:44:38,740
+We assign a pretty large
+portion of the final grade
+
+1061
+00:44:38,740 --> 00:44:40,630
+to participation in recitation.
+
+1062
+00:44:40,630 --> 00:44:42,340
+Again, we're asking
+a lot of them.
+
+1063
+00:44:42,340 --> 00:44:44,450
+We're expecting them to
+demonstrate certain skills
+
+1064
+00:44:44,450 --> 00:44:46,930
+in recitation, so they
+are graded accordingly.
+
+1065
+00:44:46,930 --> 00:44:49,540
+And we're seeing students earn
+higher participation grades
+
+1066
+00:44:49,540 --> 00:44:50,260
+now.
+
+1067
+00:44:50,260 --> 00:44:52,480
+I'm comfortable
+interpreting that as they
+
+1068
+00:44:52,480 --> 00:44:54,070
+are participating more.
+
+1069
+00:44:54,070 --> 00:44:56,140
+We are also giving them
+a lot more opportunities
+
+1070
+00:44:56,140 --> 00:44:57,580
+to participate.
+
+1071
+00:44:57,580 --> 00:44:59,267
+Related to that,
+one of the things
+
+1072
+00:44:59,267 --> 00:45:00,850
+that we've gained
+from this experience
+
+1073
+00:45:00,850 --> 00:45:03,880
+is just a better
+understanding of what it means
+
+1074
+00:45:03,880 --> 00:45:06,490
+to participate in our class.
+
+1075
+00:45:06,490 --> 00:45:08,890
+For a long time
+to us, it kind of
+
+1076
+00:45:08,890 --> 00:45:11,320
+meant, well, does this
+student answer questions
+
+1077
+00:45:11,320 --> 00:45:13,240
+when I ask them a question.
+
+1078
+00:45:13,240 --> 00:45:15,789
+But now it means, are they
+coming prepared to class?
+
+1079
+00:45:15,789 --> 00:45:17,080
+Are they engaged in group work?
+
+1080
+00:45:17,080 --> 00:45:18,580
+Are they listening
+to other students
+
+1081
+00:45:18,580 --> 00:45:19,750
+and to their instructor?
+
+1082
+00:45:19,750 --> 00:45:22,250
+Are they participating in
+class wide discussions?
+
+1083
+00:45:22,250 --> 00:45:25,450
+There is more opportunities
+for students to participate.
+
+1084
+00:45:25,450 --> 00:45:29,030
+We are much clearer about
+how we assign this grade.
+
+1085
+00:45:29,030 --> 00:45:30,940
+So not only have
+the grades improved,
+
+1086
+00:45:30,940 --> 00:45:35,760
+but the students are noticeably
+more relaxed about this grade.
+
+1087
+00:45:35,760 --> 00:45:37,690
+I get fewer complaints
+about this grade,
+
+1088
+00:45:37,690 --> 00:45:39,130
+which is great for me.
+
+1089
+00:45:39,130 --> 00:45:41,530
+And they know that if they
+come prepared and ready to do
+
+1090
+00:45:41,530 --> 00:45:44,007
+the work, they'll be fine.
+
+1091
+00:45:44,007 --> 00:45:45,590
+AUDIENCE: The grade
+for the recitation
+
+1092
+00:45:45,590 --> 00:45:47,850
+is separate from
+the course grade?
+
+1093
+00:45:47,850 --> 00:45:50,800
+PROFESSOR: It's part of the
+final grade in the course.
+
+1094
+00:45:50,800 --> 00:45:53,020
+A percentage of the final
+grade is from participation
+
+1095
+00:45:53,020 --> 00:45:55,430
+in recitation.
+
+1096
+00:45:55,430 --> 00:45:59,620
+So we also surveyed the
+students during the semester.
+
+1097
+00:45:59,620 --> 00:46:01,720
+And we were largely
+asking questions about
+
+1098
+00:46:01,720 --> 00:46:05,530
+do you feel comfortable
+in the recitations.
+
+1099
+00:46:05,530 --> 00:46:08,380
+Largely, yes, they did.
+
+1100
+00:46:08,380 --> 00:46:10,660
+In our final survey,
+overwhelmingly the students
+
+1101
+00:46:10,660 --> 00:46:14,120
+felt that these activities
+improved their engagement.
+
+1102
+00:46:14,120 --> 00:46:16,724
+So these things are all good.
+
+1103
+00:46:16,724 --> 00:46:18,140
+I don't think they
+really captured
+
+1104
+00:46:18,140 --> 00:46:20,960
+though what has been so
+great about this endeavor
+
+1105
+00:46:20,960 --> 00:46:22,350
+for our class.
+
+1106
+00:46:22,350 --> 00:46:25,160
+And so in preparing
+this talk, I spoke
+
+1107
+00:46:25,160 --> 00:46:27,050
+to a couple of
+instructors who have been
+
+1108
+00:46:27,050 --> 00:46:28,710
+with me for a number of years.
+
+1109
+00:46:28,710 --> 00:46:31,910
+So they've seen the class
+through its non-active learning
+
+1110
+00:46:31,910 --> 00:46:36,620
+era, through the dark times,
+as well as the current era.
+
+1111
+00:46:36,620 --> 00:46:39,470
+And so I stole a few quotes
+from them to kind of sum
+
+1112
+00:46:39,470 --> 00:46:41,840
+up what I think is made
+this approach better
+
+1113
+00:46:41,840 --> 00:46:43,230
+for the students.
+
+1114
+00:46:43,230 --> 00:46:44,540
+So let's turn to number one.
+
+1115
+00:46:44,540 --> 00:46:47,120
+The first is that I think the
+students actually understand
+
+1116
+00:46:47,120 --> 00:46:48,650
+the algorithms better.
+
+1117
+00:46:48,650 --> 00:46:50,930
+In particular, if we're
+acting something out,
+
+1118
+00:46:50,930 --> 00:46:53,270
+it gives them a visceral
+experience of the finer points
+
+1119
+00:46:53,270 --> 00:46:54,800
+and edge conditions.
+
+1120
+00:46:54,800 --> 00:46:56,660
+It's really easy to
+slide over things
+
+1121
+00:46:56,660 --> 00:46:58,460
+if one reads a paper
+quickly, and we're
+
+1122
+00:46:58,460 --> 00:47:00,900
+asking them to read a lot.
+
+1123
+00:47:00,900 --> 00:47:03,720
+Second instructor, I think
+that it's much better when
+
+1124
+00:47:03,720 --> 00:47:05,550
+there are pairs
+discussing a solution
+
+1125
+00:47:05,550 --> 00:47:07,290
+or when we're doing a game.
+
+1126
+00:47:07,290 --> 00:47:10,020
+People are more likely to notice
+a flaw in something I've said
+
+1127
+00:47:10,020 --> 00:47:11,490
+or in someone else's answer.
+
+1128
+00:47:11,490 --> 00:47:13,500
+And they ask better questions.
+
+1129
+00:47:13,500 --> 00:47:15,270
+Plus, I think it's
+reassuring either
+
+1130
+00:47:15,270 --> 00:47:17,970
+to find out that a classmate
+is just as confused
+
+1131
+00:47:17,970 --> 00:47:21,021
+or to find out that a classmate
+knows a ton about the subject.
+
+1132
+00:47:21,021 --> 00:47:22,520
+And then the last
+one, which I think
+
+1133
+00:47:22,520 --> 00:47:25,520
+really sums up how things
+have been for our students,
+
+1134
+00:47:25,520 --> 00:47:26,590
+is this one.
+
+1135
+00:47:26,590 --> 00:47:29,090
+I think the students are more
+engaged because they are asked
+
+1136
+00:47:29,090 --> 00:47:31,040
+to be more active participants.
+
+1137
+00:47:31,040 --> 00:47:33,350
+There's a greater sense of
+camaraderie between them
+
+1138
+00:47:33,350 --> 00:47:35,790
+because of their interactions.
+
+1139
+00:47:35,790 --> 00:47:37,880
+So we're seeing these
+students understanding
+
+1140
+00:47:37,880 --> 00:47:40,370
+the details of the systems
+better, while developing
+
+1141
+00:47:40,370 --> 00:47:41,930
+this sense of camaraderie.
+
+1142
+00:47:41,930 --> 00:47:44,690
+And honestly, that
+has been huge for us.
+
+1143
+00:47:44,690 --> 00:47:46,940
+Largely, I would say,
+from my perspective
+
+1144
+00:47:46,940 --> 00:47:48,770
+as the person in
+charge, students
+
+1145
+00:47:48,770 --> 00:47:52,280
+are buying into this class
+more than they used to.
+
+1146
+00:47:52,280 --> 00:47:55,250
+I get fewer complaints
+across the board.
+
+1147
+00:47:55,250 --> 00:47:57,620
+We're seeing them
+work better together
+
+1148
+00:47:57,620 --> 00:47:59,430
+in their team projects.
+
+1149
+00:47:59,430 --> 00:48:01,190
+We're seeing them
+be more engaged
+
+1150
+00:48:01,190 --> 00:48:04,820
+in lecture and in tutorial, even
+though recitations was really
+
+1151
+00:48:04,820 --> 00:48:07,672
+where this active
+learning push happened.
+
+1152
+00:48:07,672 --> 00:48:09,380
+And this whole thing
+has been beneficial,
+
+1153
+00:48:09,380 --> 00:48:14,277
+not just for the students,
+but also for the staff.
+
+1154
+00:48:14,277 --> 00:48:15,860
+There was a little
+hesitance at first.
+
+1155
+00:48:15,860 --> 00:48:18,090
+Active learning
+can be a hard sell.
+
+1156
+00:48:18,090 --> 00:48:20,510
+It involves more
+work for everyone.
+
+1157
+00:48:20,510 --> 00:48:22,050
+It takes a lot of planning.
+
+1158
+00:48:22,050 --> 00:48:24,410
+It can be a nerve-wracking
+way to teach if you've never
+
+1159
+00:48:24,410 --> 00:48:25,390
+taught it before.
+
+1160
+00:48:25,390 --> 00:48:27,380
+Imagine coming into
+a room of students
+
+1161
+00:48:27,380 --> 00:48:30,032
+you don't know very well,
+and say, OK, five of your
+
+1162
+00:48:30,032 --> 00:48:31,490
+are going to be on
+the master team,
+
+1163
+00:48:31,490 --> 00:48:34,010
+let's go, I made
+you all hats, right?
+
+1164
+00:48:34,010 --> 00:48:38,670
+But now, one of my
+instructors said,
+
+1165
+00:48:38,670 --> 00:48:40,490
+there's a modest
+amount of competition
+
+1166
+00:48:40,490 --> 00:48:44,180
+among the recitation instructors
+to work out schemes and games.
+
+1167
+00:48:44,180 --> 00:48:47,420
+So it feels like there's both
+a reward for applying myself,
+
+1168
+00:48:47,420 --> 00:48:50,204
+but there's also less
+need for perfection.
+
+1169
+00:48:50,204 --> 00:48:51,620
+It's helped that
+we're encouraging
+
+1170
+00:48:51,620 --> 00:48:53,930
+active learning is an
+approach, because it makes
+
+1171
+00:48:53,930 --> 00:48:55,580
+it feel like less
+of a risk for me
+
+1172
+00:48:55,580 --> 00:49:00,020
+to try some new unconventional
+approach that occurs to me.
+
+1173
+00:49:00,020 --> 00:49:03,020
+So I'll tell you one of
+the highlights for me,
+
+1174
+00:49:03,020 --> 00:49:05,600
+as a person sort of
+overseeing this operation.
+
+1175
+00:49:05,600 --> 00:49:08,182
+So this happened at the
+end of last semester.
+
+1176
+00:49:08,182 --> 00:49:09,890
+Again, that's the
+first time we're really
+
+1177
+00:49:09,890 --> 00:49:11,634
+putting this scheme into place.
+
+1178
+00:49:11,634 --> 00:49:13,050
+And near the end,
+my instructors--
+
+1179
+00:49:13,050 --> 00:49:14,810
+I got this email
+from the instructors
+
+1180
+00:49:14,810 --> 00:49:17,139
+about one of the
+final recitations.
+
+1181
+00:49:17,139 --> 00:49:18,680
+And the recitation
+was about a system
+
+1182
+00:49:18,680 --> 00:49:21,740
+called DNS SEC, secure DNS.
+
+1183
+00:49:21,740 --> 00:49:23,240
+So it deals with security.
+
+1184
+00:49:23,240 --> 00:49:27,210
+DNS prevents certain types of
+attacks on a system called DNS.
+
+1185
+00:49:27,210 --> 00:49:28,910
+That's all you need
+to know DNS SEC.
+
+1186
+00:49:28,910 --> 00:49:31,080
+So the first instructor
+described an activity
+
+1187
+00:49:31,080 --> 00:49:34,310
+they had done, where they
+had groups draw diagrams
+
+1188
+00:49:34,310 --> 00:49:36,729
+of their attacks on
+the board in parallel
+
+1189
+00:49:36,729 --> 00:49:38,270
+and then talked
+through each diagram,
+
+1190
+00:49:38,270 --> 00:49:41,680
+with the students explaining
+the problems and the approaches.
+
+1191
+00:49:41,680 --> 00:49:44,330
+And the instructor
+noted that they engaged,
+
+1192
+00:49:44,330 --> 00:49:47,330
+they laughed, they collaborated,
+they learned more about
+
+1193
+00:49:47,330 --> 00:49:50,480
+how design figures to tell
+the story they wanted to tell.
+
+1194
+00:49:50,480 --> 00:49:52,700
+And I got this email,
+and I was so excited.
+
+1195
+00:49:52,700 --> 00:49:55,280
+Because this was not an activity
+that I had planned for them.
+
+1196
+00:49:55,280 --> 00:49:57,120
+This is just something
+they had done.
+
+1197
+00:49:57,120 --> 00:50:00,320
+And I thought, it's happened,
+finally it's happened.
+
+1198
+00:50:00,320 --> 00:50:01,910
+And then I get a second email.
+
+1199
+00:50:01,910 --> 00:50:03,890
+And so a second
+instructor responded
+
+1200
+00:50:03,890 --> 00:50:05,600
+saying that that sounded great.
+
+1201
+00:50:05,600 --> 00:50:08,030
+And what they had done,
+they'd had a group of students
+
+1202
+00:50:08,030 --> 00:50:11,270
+work out how DNS would work
+for a particular scenario, so
+
+1203
+00:50:11,270 --> 00:50:13,040
+the original system.
+
+1204
+00:50:13,040 --> 00:50:15,950
+And then two additional groups
+joined that first group,
+
+1205
+00:50:15,950 --> 00:50:18,320
+worked through how
+different attacks would
+
+1206
+00:50:18,320 --> 00:50:19,980
+affect that scenario.
+
+1207
+00:50:19,980 --> 00:50:22,460
+And then a fourth
+group acted as DNS SEC,
+
+1208
+00:50:22,460 --> 00:50:25,770
+and explain how DNS SEC
+would prevent such attacks.
+
+1209
+00:50:25,770 --> 00:50:28,930
+So to brand new ideas,
+both really good,
+
+1210
+00:50:28,930 --> 00:50:30,050
+both really different.
+
+1211
+00:50:30,050 --> 00:50:31,460
+And this is so exciting.
+
+1212
+00:50:31,460 --> 00:50:33,560
+And then we get to
+instructor number three.
+
+1213
+00:50:33,560 --> 00:50:35,180
+And I've never been
+able to figure out
+
+1214
+00:50:35,180 --> 00:50:37,160
+a way to summarize this email.
+
+1215
+00:50:37,160 --> 00:50:39,950
+So I have to quote
+it for you directly.
+
+1216
+00:50:39,950 --> 00:50:42,320
+"In my recitation, we
+had a marriage proposal
+
+1217
+00:50:42,320 --> 00:50:45,290
+that went bad when a romantic
+rival launched an attack
+
+1218
+00:50:45,290 --> 00:50:46,910
+to destroy the relationship.
+
+1219
+00:50:46,910 --> 00:50:48,710
+A second group used
+a different attack
+
+1220
+00:50:48,710 --> 00:50:52,070
+to induce peasants to send
+their taxes to a scammer.
+
+1221
+00:50:52,070 --> 00:50:53,840
+All of these attacks
+were then prevented
+
+1222
+00:50:53,840 --> 00:50:55,850
+by the use of DNS SEC.
+
+1223
+00:50:55,850 --> 00:50:59,540
+After each play, we did a replay
+with deep structure analysis
+
+1224
+00:50:59,540 --> 00:51:03,080
+that made the analogy between
+the play and DNS explicit.
+
+1225
+00:51:03,080 --> 00:51:05,360
+Overall, a pretty
+fun recitation and I
+
+1226
+00:51:05,360 --> 00:51:07,760
+was impressed with the
+creativity, enthusiasm,
+
+1227
+00:51:07,760 --> 00:51:11,430
+and acting talent the
+students displayed."
+
+1228
+00:51:11,430 --> 00:51:12,507
+So this was amazing.
+
+1229
+00:51:12,507 --> 00:51:14,090
+This was like such--
+this email thread
+
+1230
+00:51:14,090 --> 00:51:15,590
+is just such a triumph for me.
+
+1231
+00:51:15,590 --> 00:51:18,770
+I have it highlighted
+and saved in my email.
+
+1232
+00:51:18,770 --> 00:51:21,350
+And this has continued
+on since last semester.
+
+1233
+00:51:21,350 --> 00:51:23,330
+I get like one of these
+email threads a week
+
+1234
+00:51:23,330 --> 00:51:26,540
+now, with my instructor telling
+me all of the cool things
+
+1235
+00:51:26,540 --> 00:51:28,250
+that they have done.
+
+1236
+00:51:28,250 --> 00:51:32,390
+So the last thing, which I hope
+has come through in this talk,
+
+1237
+00:51:32,390 --> 00:51:36,020
+it was a lot of work to
+get this to happen in 033.
+
+1238
+00:51:36,020 --> 00:51:39,500
+I cannot in good faith stand
+here tell you active learning
+
+1239
+00:51:39,500 --> 00:51:42,390
+is a breeze, you can just add
+it in, five minutes of prep time
+
+1240
+00:51:42,390 --> 00:51:43,340
+before the class.
+
+1241
+00:51:43,340 --> 00:51:44,375
+It's a lot of work.
+
+1242
+00:51:44,375 --> 00:51:47,810
+But this class is
+so much fun now.
+
+1243
+00:51:47,810 --> 00:51:49,610
+It's fun for me to run.
+
+1244
+00:51:49,610 --> 00:51:51,149
+It's fun for
+instructors to teach.
+
+1245
+00:51:51,149 --> 00:51:52,940
+I don't know how many
+people would tell you
+
+1246
+00:51:52,940 --> 00:51:56,350
+that their 400-person
+class is fun to run.
+
+1247
+00:51:56,350 --> 00:51:57,910
+But I have a great time.
+
+1248
+00:51:57,910 --> 00:52:01,340
+And the amount of enjoyment that
+we get out of teaching 033 this
+
+1249
+00:52:01,340 --> 00:52:04,160
+way really comes through
+for the students.
+
+1250
+00:52:04,160 --> 00:52:07,250
+And I think that's another
+component of what has helped
+
+1251
+00:52:07,250 --> 00:52:09,990
+them engage more in this class.
+
+1252
+00:52:09,990 --> 00:52:11,790
+So it has worked
+really well for us.
+
+1253
+00:52:11,790 --> 00:52:14,150
+I hope that you get some
+practical things that you can
+
+1254
+00:52:14,150 --> 00:52:15,750
+try out in your own classes.
+
+1255
+00:52:15,750 --> 00:52:19,310
+And I'm happy to take questions
+or to delegate questions off
+
+1256
+00:52:19,310 --> 00:52:21,820
+to Jesse and Karen.
